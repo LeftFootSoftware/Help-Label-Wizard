@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "slug": "getting-started",
+      "title": "Erste Schritte",
+      "description": "Die Grundlagen, um schnell loszulegen.",
+      "_previousArticles": [
+        "overview",
+        "mainpage",
+        "prefix-management",
+        "purchasing-gtins"
+      ],
+      "articles": [
+        "what-is-gs1-assistant-and-what-its-not",
+        "before-you-install-do-you-have-a-gs1-company-prefix",
+        "how-to-install-connect-and-add-your-prefix",
+        "assign-your-first-gtin-to-a-product",
+        "understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean"
+      ]
+    },
+    {
+      "slug": "core-features-setup",
+      "title": "Kernfunktionen & Einrichtung",
+      "description": "Schritt-für-Schritt-Anleitungen zur Konfiguration Ihrer App.",
+      "author": "Brian McKinley",
+      "updated": "2026-06-27",
+      "_previousArticles": [
+        "configuration",
+        "dashboard",
+        "variantdetail",
+        "download"
+      ],
+      "articles": [
+        "adding-and-managing-your-company-prefix",
+        "how-to-avoid-duplicate-gtin-assignments",
+        "bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once",
+        "downloading-your-gtin-export-file-for-retailers-and-marketplaces",
+        "using-shopify-flow-to-assign-gtins-to-new-products"
+      ]
+    },
+    {
+      "slug": "gs1-compliance",
+      "title": "GS1-Compliance",
+      "description": "Regeln und Standards für gültige GS1-Barcodes.",
+      "author": "Brian McKinley",
+      "updated": "2026-07-27",
+      "_previousArticles": [
+        "mo-capabilities"
+      ],
+      "articles": [
+        "upc-vs-ean-vs-gtin",
+        "where-should-i-buy-gtins-from"
+      ]
+    }
+  ],
+  "articleUpdates": {
+    "adding-and-managing-your-company-prefix": "2026-06-27",
+    "how-to-avoid-duplicate-gtin-assignments": "2026-06-27",
+    "bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once": "2026-06-27",
+    "downloading-your-gtin-export-file-for-retailers-and-marketplaces": "2026-06-27",
+    "using-shopify-flow-to-assign-gtins-to-new-products": "2026-06-27",
+    "upc-vs-ean-vs-gtin": "2026-07-27",
+    "where-should-i-buy-gtins-from": "2026-06-27"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "slug": "getting-started",
+      "title": "Getting Started",
+      "description": "The basics to get up and running quickly.",
+      "author": "Brian McKinley",
+      "updated": "2026-05-27",
+      "articles": [
+        "Fabric-tsx-changes-to-reapply",
+        "dev-preview",
+        "plan-editorpage-filters-consistent"
+      ]
+    },
+    {
+      "slug": "core-features-setup",
+      "title": "Core Features & Setup",
+      "description": "Step-by-step guides to configure your app.",
+      "author": "Brian McKinley",
+      "updated": "2026-06-27",
+      "articles": [
+        "plan-flex-region-in-slot",
+        "plan-label-harness-space-pan-fix",
+        "plan-label-harness-state-driven-sidebar"
+      ]
+    },
+    {
+      "slug": "compliance",
+      "title": "Label Wizard Compliance",
+      "description": "Rules and standards for valid Label Wizard.",
+      "author": "Brian McKinley",
+      "updated": "2026-07-27",
+      "_previousArticles": [
+        "mo-capabilities"
+      ],
+      "articles": [
+        "plan-label-wizard-textbox"
+      ]
+    }
+  ],
+  "articleUpdates": {
+    "Fabric-tsx-changes-to-reapply": "2026-05-27",
+    "dev-preview": "2026-05-27",
+    "plan-editorpage-filters-consistent": "2026-05-27",
+    "plan-label-wizard-textbox": "2026-05-27",
+    "plan-label-harness-state-driven-sidebar": "2026-05-27",
+    "plan-label-harness-space-pan-fix": "2026-06-27"
+  }
+}
