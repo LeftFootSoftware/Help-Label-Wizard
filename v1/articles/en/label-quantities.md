@@ -6,7 +6,7 @@ This guide explains how quantities work on Print labels: per-row edits, **Set Qu
 
 In the Products table, change the quantity field on a row. That value is how many labels print for that product or variant in the next run.
 
-<!-- SCREENSHOT: LabelQuantitiesRowEdit.png | Products table with quantity field set on a selected row | source: harness -->
+![screenshot:Products table with quantity field set on a selected row](LabelQuantitiesRowEdit.png)
 
 ### Set Quantity for many products
 
@@ -24,7 +24,7 @@ In **Settings**, **Default print quantity** controls the starting quantity when 
 
 Help text in Settings: you can change quantities on Print labels at any time.
 
-<!-- SCREENSHOT: LabelQuantitiesSettingsDefault.png | Settings Default print quantity options | source: harness -->
+![screenshot:Settings Default print quantity options](LabelQuantitiesSettingsDefault.png)
 
 ### Inventory and locations
 

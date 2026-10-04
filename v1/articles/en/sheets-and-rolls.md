@@ -6,7 +6,7 @@ This guide shows how to browse **Sheets and rolls**, filter by manufacturer, siz
 
 In Label Wizard navigation, open **Sheets and rolls**. You will see a list of templates with dimensions and layout (sheet vs continuous).
 
-<!-- SCREENSHOT: SheetsAndRollsList.png | Sheets and rolls table with filters and search | source: harness -->
+![screenshot:Sheets and rolls table with filters and search](SheetsAndRollsList.png)
 
 ### Search and filters
 
@@ -29,7 +29,7 @@ Matching the template to your stock is the easiest way to keep print alignment c
 - Use **Duplicate** when you want a copy of a catalog template to tweak.
 - Use **Add custom** when your stock is not in the list. See [Creating a custom sheet or roll template](/category/sheets-rolls-templates/custom-label-template).
 
-<!-- SCREENSHOT: SheetsAndRollsDesignAction.png | Template row actions including Design a label | source: harness -->
+![screenshot:Template rows with the Design a label and Duplicate actions](SheetsAndRollsDesignAction.png)
 
 ### Related articles
 

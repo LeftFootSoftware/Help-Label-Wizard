@@ -6,7 +6,7 @@ This guide explains the Settings page: language, units, print resolution, defaul
 
 Choose **Settings** in Label Wizard navigation.
 
-<!-- SCREENSHOT: AppSettingsPage.png | Settings page overview with language, units, and print preferences | source: harness -->
+![screenshot:Settings page overview with language, units, and print preferences](AppSettingsPage.png)
 
 ### Language
 

@@ -8,7 +8,7 @@ A **Flex region** is a container you place on the label. Objects inside it (text
 
 Shapes cannot be bound into flex slots. Use text, barcode, image, or QR code content inside a flex region.
 
-<!-- SCREENSHOT: FlexRegionsOnCanvas.png | Label with a flex region selected and content inside it | source: harness -->
+![screenshot:Label with a flex region selected and content inside it](FlexRegionsOnCanvas.png)
 
 ### When to use one
 
@@ -26,7 +26,7 @@ Use a flex region when:
 4. Add or bind supported objects into the region’s slots as the editor allows.
 5. Preview with several variants to confirm long and short text both look right.
 
-<!-- SCREENSHOT: FlexRegionsSidebar.png | Flex region sidebar showing membership / slot options | source: harness -->
+![screenshot:Flex region sidebar showing membership / slot options](FlexRegionsSidebar.png)
 
 ### Tips
 

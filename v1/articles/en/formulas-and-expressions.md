@@ -13,7 +13,7 @@ Use a formula when a single field is not enough, for example:
 
 Start with simple field insertion first. See [Showing product data on labels](/category/designing-labels/dynamic-product-data). Switch to **Formula** mode in the token editor when you need more control.
 
-<!-- SCREENSHOT: FormulasAndExpressionsEditor.png | Token / formula editor open on a text field | source: harness -->
+![screenshot:Token / formula editor open on a text field](FormulasAndExpressionsEditor.png)
 
 ### Editing a formula
 

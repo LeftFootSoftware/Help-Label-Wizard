@@ -33,7 +33,7 @@ The **Design** dropdown lists your saved designs. Edit and Print use the design 
 - **Edit** opens the design in Label Wizard’s editor.
 - **Print** opens **Print labels** filtered to that product or variant.
 
-<!-- SCREENSHOT: AdminBlocksPrintFiltered.png | Print labels opened from the block with product/variant filter chip | source: harness -->
+![screenshot:Print labels opened from the block, filtered to one product](AdminBlocksPrintFiltered.png)
 
 ### More actions
 

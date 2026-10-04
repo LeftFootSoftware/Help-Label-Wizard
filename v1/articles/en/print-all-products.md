@@ -8,7 +8,7 @@ This guide explains **Select all** and the Print All flow when you need labels f
 2. Select at least one row, then choose **Select all** for all products matching the current filters (not only the current page).
 3. The bulk Print action may read **Print All**.
 
-<!-- SCREENSHOT: PrintAllProductsSelectAll.png | Print labels with Select all active and Print All action | source: harness -->
+![screenshot:Print labels with Select all active and Print All action](PrintAllProductsSelectAll.png)
 
 ### Print All quantity step
 

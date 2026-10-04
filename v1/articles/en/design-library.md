@@ -6,7 +6,7 @@ This guide covers the Design gallery: browsing ready-made designs, previewing th
 
 From the Dashboard choose **Browse ready-made designs**, or open **Design gallery** from navigation when available.
 
-<!-- SCREENSHOT: DesignLibraryGallery.png | Design gallery grid of ready-made designs | source: harness -->
+![screenshot:Design gallery grid of ready-made designs](DesignLibraryGallery.png)
 
 ### Browse designs
 
@@ -17,7 +17,7 @@ From the Dashboard choose **Browse ready-made designs**, or open **Design galler
 
 When the gallery offers sample data controls, use **Change variant** (or previous/next) to see how a design looks with your own catalog. This is the best way to judge whether titles fit and barcodes look correct.
 
-<!-- SCREENSHOT: DesignLibraryPreviewVariant.png | Ready-made design preview with a store product variant | source: harness -->
+![screenshot:Ready-made design preview with a store product variant](DesignLibraryPreviewVariant.png)
 
 ### Start from a ready-made design
 

@@ -8,7 +8,7 @@ This guide covers barcode objects, supported formats, linking to product barcode
 2. Add a **Barcode** object.
 3. Select it to open barcode settings in the sidebar.
 
-<!-- SCREENSHOT: AddingBarcodesSidebar.png | Barcode selected with format and field options in the sidebar | source: harness -->
+![screenshot:Barcode selected with format and field options in the sidebar](AddingBarcodesSidebar.png)
 
 ### Supported formats
 

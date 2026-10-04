@@ -12,7 +12,7 @@ In Settings and in the print dialog you can set **Print resolution**:
 
 Continuous-feed rolls often print best at **203 DPI** on thermal printers. Very small labels may automatically print at a higher effective DPI; the app can show a note when that happens.
 
-<!-- SCREENSHOT: PrintQualityDpiSettings.png | Settings Print resolution options 203, 300, 600 | source: harness -->
+![screenshot:Settings Print resolution options 203, 300, 600](PrintQualityDpiSettings.png)
 
 ### Browser print settings
 

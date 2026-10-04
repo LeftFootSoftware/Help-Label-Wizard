@@ -48,7 +48,7 @@ From the Label Wizard **Dashboard** support section:
 - **Chat with us** — opens chat with the Label Wizard team
 - **Book a call** — schedule a 30-minute call for setup help, a walkthrough, or feature requests
 
-<!-- SCREENSHOT: TroubleshootingPrintingSupportCards.png | Dashboard support cards Chat with us and Book a call | source: harness -->
+![screenshot:Dashboard support cards Chat with us and Book a call](TroubleshootingPrintingSupportCards.png)
 
 ### Related articles
 

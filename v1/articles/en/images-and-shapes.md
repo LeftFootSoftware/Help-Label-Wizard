@@ -8,7 +8,7 @@ This guide covers logos, product images, and shape objects such as rectangles, c
 2. Add an **Image** object.
 3. Choose the image source in the sidebar (for example a custom upload or a product image field, depending on the options shown).
 
-<!-- SCREENSHOT: ImagesAndShapesImageSidebar.png | Image object selected with source options in the sidebar | source: harness -->
+![screenshot:Image object selected with source options in the sidebar](ImagesAndShapesImageSidebar.png)
 
 ### Logos and brand artwork
 
@@ -31,7 +31,7 @@ Use shape tools for:
 
 Shapes are useful for borders, color blocks, and visual structure. Set fill and stroke colors in the sidebar.
 
-<!-- SCREENSHOT: ImagesAndShapesOnCanvas.png | Label with logo, rectangle frame, and product image | source: harness -->
+![screenshot:Label on the canvas with a product image and shape blocks](ImagesAndShapesOnCanvas.png)
 
 ### Layering
 

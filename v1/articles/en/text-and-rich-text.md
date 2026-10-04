@@ -8,7 +8,7 @@ This guide explains how to add text boxes and format fonts, sizes, styles, color
 2. Add a **Text** object from the toolbar.
 3. Double-click or use the sidebar to edit the content.
 
-<!-- SCREENSHOT: TextAndRichTextSidebar.png | Text object selected with font and style controls in the sidebar | source: harness -->
+![screenshot:Text object selected with font and style controls in the sidebar](TextAndRichTextSidebar.png)
 
 ### Font, size, and style
 

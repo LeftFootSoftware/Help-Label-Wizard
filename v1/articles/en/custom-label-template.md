@@ -20,7 +20,7 @@ Create a custom template when your physical stock is not listed under **Sheets a
    - Margins (top, bottom, left, right)
 7. Save the template.
 
-<!-- SCREENSHOT: CustomLabelTemplateForm.png | Add custom template form with dimensions and layout fields | source: harness -->
+![screenshot:Add custom template form with dimensions and layout fields](CustomLabelTemplateForm.png)
 
 ### Preview and validation
 

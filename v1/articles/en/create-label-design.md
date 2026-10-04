@@ -12,7 +12,7 @@ From the **Dashboard**, choose **Design a label**, then pick one of:
 
 You can also open **Sheets and rolls** and choose **Design a label** on a template row.
 
-<!-- SCREENSHOT: CreateLabelDesignChooser.png | Design a label chooser with ready-made, sheet, and scratch options | source: harness -->
+![screenshot:Design a label chooser with ready-made, sheet, and scratch options](CreateLabelDesignChooser.png)
 
 ### Start from scratch
 

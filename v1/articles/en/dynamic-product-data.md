@@ -9,13 +9,13 @@ This guide explains how to insert product fields such as title, price, SKU, vari
 3. Choose a field such as title, price, SKU, barcode, or a metafield.
 4. Apply the selection so the canvas shows a token or resolved preview.
 
-<!-- SCREENSHOT: DynamicProductDataInsert.png | Attribute picker open while editing a text field | source: harness -->
+![screenshot:Attribute picker open while editing a text field](DynamicProductDataInsert.png)
 
 ### Preview with a real variant
 
 Use the editor’s variant selector (when shown) to preview how the label looks for different products. This helps catch empty fields, long titles, and barcode issues before you print.
 
-<!-- SCREENSHOT: DynamicProductDataVariantPreview.png | Editor preview switched to a specific product variant | source: harness -->
+![screenshot:Editor preview switched to a specific product variant](DynamicProductDataVariantPreview.png)
 
 ### Common fields
 

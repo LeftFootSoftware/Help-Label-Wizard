@@ -14,7 +14,7 @@ Best when:
 
 Use **Sheets and rolls** in Label Wizard to find a matching template, or create a [custom sheet template](/category/sheets-rolls-templates/custom-label-template).
 
-<!-- SCREENSHOT: ChoosingStockSheetsAndRolls.png | Sheets and rolls page with manufacturer sheet templates listed | source: harness -->
+![screenshot:Sheets and rolls page with the Manufacturer filter open](ChoosingStockSheetsAndRolls.png)
 
 ### Rolls (thermal)
 
@@ -43,7 +43,7 @@ Continuous-feed rolls often print best at **203 DPI** on thermal printers. See [
 2. Filter by size, shape, or search (for example `Avery 5160` or `4x6`).
 3. When printing, choose the same **Sheet or roll** in the print dialog so the preview matches your physical stock.
 
-<!-- SCREENSHOT: ChoosingStockPrintPicker.png | Print modal Manufacturer and Sheet or roll selectors | source: harness -->
+![screenshot:Print modal Manufacturer and Sheet or roll selectors](ChoosingStockPrintPicker.png)
 
 ### Related articles
 

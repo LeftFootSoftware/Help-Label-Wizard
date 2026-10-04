@@ -11,7 +11,7 @@ When a design is open you typically see:
 - A **sidebar** for the selected object’s properties
 - Zoom controls so you can work at a comfortable scale
 
-<!-- SCREENSHOT: LabelEditorBasicsCanvas.png | Label editor with toolbar, canvas, and sidebar visible | source: harness -->
+![screenshot:Label editor with toolbar, canvas, and sidebar visible](LabelEditorBasicsCanvas.png)
 
 ### Adding objects
 
@@ -45,7 +45,7 @@ Zoom in to fine-tune barcodes and small text. Zoom out to see the full label. Us
 2. To print, use print from a saved design or open **Print labels**.
 3. If you try to print with unsaved changes, the app may offer **Save & Print** or **Print without saving**.
 
-<!-- SCREENSHOT: LabelEditorUnsavedPrint.png | Unsaved changes dialog with Save and Print options | source: harness -->
+![screenshot:Unsaved changes dialog with Save and Print options](LabelEditorUnsavedPrint.png)
 
 ### Related articles
 

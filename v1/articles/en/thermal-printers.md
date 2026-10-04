@@ -8,7 +8,7 @@ This guide covers printing Label Wizard designs on thermal and continuous-feed p
 2. In Print labels, choose that same sheet/roll in the stock picker.
 3. Set **Print resolution** to **203 DPI** unless your printer documentation recommends otherwise.
 
-<!-- SCREENSHOT: ThermalPrintersStockPicker.png | Print modal showing Continuous Feed / roll selection and 203 DPI | source: harness -->
+![screenshot:Print modal showing Continuous Feed / roll selection and 203 DPI](ThermalPrintersStockPicker.png)
 
 ### Driver and printer setup
 

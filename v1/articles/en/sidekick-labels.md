@@ -12,7 +12,7 @@ Until the Sidekick action is enabled for your store, create and edit designs fro
 - **Design gallery** ready-made layouts
 - **Sheets and rolls** → **Design a label**
 
-<!-- SCREENSHOT: SidekickLabelsDashboardDesign.png | Dashboard Design a label options while Sidekick is unavailable | source: harness -->
+![screenshot:Describe my label box on the Design a label page](SidekickLabelsDashboardDesign.png)
 
 ### What Sidekick will help with
 

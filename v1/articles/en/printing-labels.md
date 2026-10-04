@@ -8,7 +8,7 @@ Open **Print labels** from the navigation, from a saved design, or from Label Wi
 
 You will see your selected design summary and a **Products** table.
 
-<!-- SCREENSHOT: PrintingLabelsPage.png | Print labels page with products table and Print button | source: harness -->
+![screenshot:Print labels page with products table and Print button](PrintingLabelsPage.png)
 
 ### Search and filters
 
@@ -32,7 +32,7 @@ If you arrived from a product or variant action, a product/variant chip may alre
 3. Confirm **Print resolution** (DPI) if shown.
 4. Review the **Label Preview**, then print.
 
-<!-- SCREENSHOT: PrintingLabelsStockModal.png | Select label stock to print modal with preview | source: harness -->
+![screenshot:Select label stock to print modal with preview](PrintingLabelsStockModal.png)
 
 ### Credits
 
