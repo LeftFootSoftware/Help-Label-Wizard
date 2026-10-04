@@ -3,63 +3,32 @@
     {
       "slug": "getting-started",
       "title": "Erste Schritte",
-      "description": "Die Grundlagen, um schnell loszulegen.",
-      "_previousArticles": [
-        "overview",
-        "mainpage",
-        "prefix-management",
-        "purchasing-gtins"
-      ],
-      "articles": [
-        "what-is-gs1-assistant-and-what-its-not",
-        "before-you-install-do-you-have-a-gs1-company-prefix",
-        "how-to-install-connect-and-add-your-prefix",
-        "assign-your-first-gtin-to-a-product",
-        "understanding-gtin-status-what-ok-invalid-unassigned-and-verified-mean"
-      ]
+      "description": "Label Wizard installieren, Guthaben verstehen und Etikettenmaterial wählen."
     },
     {
-      "slug": "core-features-setup",
-      "title": "Kernfunktionen & Einrichtung",
-      "description": "Schritt-für-Schritt-Anleitungen zur Konfiguration Ihrer App.",
-      "author": "Brian McKinley",
-      "updated": "2026-06-27",
-      "_previousArticles": [
-        "configuration",
-        "dashboard",
-        "variantdetail",
-        "download"
-      ],
-      "articles": [
-        "adding-and-managing-your-company-prefix",
-        "how-to-avoid-duplicate-gtin-assignments",
-        "bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once",
-        "downloading-your-gtin-export-file-for-retailers-and-marketplaces",
-        "using-shopify-flow-to-assign-gtins-to-new-products"
-      ]
+      "slug": "designing-labels",
+      "title": "Etiketten gestalten",
+      "description": "Etiketten erstellen und bearbeiten: Text, Barcodes, Bilder und Produktdaten."
     },
     {
-      "slug": "gs1-compliance",
-      "title": "GS1-Compliance",
-      "description": "Regeln und Standards für gültige GS1-Barcodes.",
-      "author": "Brian McKinley",
-      "updated": "2026-07-27",
-      "_previousArticles": [
-        "mo-capabilities"
-      ],
-      "articles": [
-        "upc-vs-ean-vs-gtin",
-        "where-should-i-buy-gtins-from"
-      ]
+      "slug": "sheets-rolls-templates",
+      "title": "Bögen, Rollen und Vorlagen",
+      "description": "Herstellerware finden, eigene Vorlagen anlegen und die Design-Bibliothek nutzen."
+    },
+    {
+      "slug": "printing",
+      "title": "Drucken",
+      "description": "Etiketten für Produkte und Bestellungen drucken, Mengen festlegen und Druckqualität verbessern."
+    },
+    {
+      "slug": "shopify-admin",
+      "title": "Arbeit im Shopify-Admin",
+      "description": "Label Wizard auf Produkt- und Varianten-Seiten sowie mit Shopify Sidekick nutzen."
+    },
+    {
+      "slug": "account-troubleshooting",
+      "title": "Konto und Fehlerbehebung",
+      "description": "App-Einstellungen und Lösungen für häufige Druckprobleme."
     }
-  ],
-  "articleUpdates": {
-    "adding-and-managing-your-company-prefix": "2026-06-27",
-    "how-to-avoid-duplicate-gtin-assignments": "2026-06-27",
-    "bulk-gtin-assignment-assign-barcodes-to-your-entire-catalogue-at-once": "2026-06-27",
-    "downloading-your-gtin-export-file-for-retailers-and-marketplaces": "2026-06-27",
-    "using-shopify-flow-to-assign-gtins-to-new-products": "2026-06-27",
-    "upc-vs-ean-vs-gtin": "2026-07-27",
-    "where-should-i-buy-gtins-from": "2026-06-27"
-  }
+  ]
 }
