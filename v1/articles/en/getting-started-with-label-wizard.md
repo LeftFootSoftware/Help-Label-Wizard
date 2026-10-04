@@ -1,29 +1,29 @@
 ## Getting started with Label Wizard
 
-This guide walks you through installing Label Wizard, opening the dashboard, and designing and printing your first label.
+This guide walks you through installing Label Wizard and designing and printing your first label from the Dashboard.
 
 ### Step 1: Install the app
 
 1. Open Label Wizard in the Shopify App Store and choose **Add app**.
 2. Approve the requested permissions for your store.
-3. After install, Shopify opens Label Wizard in your admin under **Apps**.
+3. After install, Shopify opens the app in admin. You land on the **Dashboard** (the same home screen you get whenever you open Label Wizard from **Apps**).
 
 <!-- SCREENSHOT: GettingStartedAppNav.png | Shopify admin Apps menu with Label Wizard selected | source: admin -->
 
-### Step 2: Open the dashboard
+### Step 2: Use the Dashboard
 
-The **Dashboard** is your home screen. From here you can:
+The **Dashboard** is where you start. From here you can:
 
 - Start a new design (**Design a label**)
 - Open **Your designs**
 - Browse ready-made designs or start from a sheet or roll
 - Print labels for products
 
-<!-- SCREENSHOT: GettingStartedDashboard.png | Label Wizard Dashboard with Quick Actions and Getting Started | source: harness -->
+![screenshot:Dashboard showing Your designs](GettingStartedDashboard.png)
 
 ### Step 3: Design your first label
 
-1. On the Dashboard, choose **Design a label**.
+1. Choose **Design a label**.
 2. Pick how you want to start:
    - **Browse ready-made designs** — start from a sample layout
    - **Start from a sheet or roll** — match a manufacturer template (for example Avery or Online Labels)
@@ -32,7 +32,7 @@ The **Dashboard** is your home screen. From here you can:
 
 See [Creating a new label design](/category/designing-labels/create-label-design) for more detail.
 
-<!-- SCREENSHOT: GettingStartedFirstDesign.png | Editor with a simple first label design | source: harness -->
+![screenshot:Design a label page with ready-made designs and sheet search](GettingStartedFirstDesign.png)
 
 ### Step 4: Print labels
 
