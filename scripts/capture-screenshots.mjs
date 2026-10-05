@@ -3,8 +3,13 @@
  *
  * Every shot in this repo came from here, so a re-shoot after a UI change is a re-run rather than
  * 34 manual captures at inconsistent sizes. It drives the Label Wizard label harness in headless
- * Chrome, against the Eliel Cycling store — the `editor-*` stages open designs by name that exist
- * nowhere else. See `scripts/README.md` for what has to be running first.
+ * Chrome; see `scripts/README.md` for what has to be running first.
+ *
+ * Any store will do, including an empty development one. Nothing below names a design, product or
+ * variant: the editor stages open samples that ship in the app, and the stages that need a product
+ * read whichever one the store happens to list first. An earlier version pointed at a real
+ * merchant's store and opened one of their saved designs by name, which made a screenshot run
+ * depend on a live store continuing to hold a particular row.
  *
  * Read-only against the store. It opens designs, selects objects and fills in forms, but never
  * saves or deletes, and it answers the editor's unsaved-changes prompt by discarding.
@@ -24,6 +29,23 @@ const HARNESS =
   process.env.HARNESS_URL ?? "http://localhost:3003/scripts/label-harness/index.html";
 /** Unset means puppeteer's own bundled Chromium, which is the normal case. */
 const CHROME = process.env.CHROME_PATH;
+
+/**
+ * Designs the editor stages open, by their title on the Samples page.
+ *
+ * All of these ship in the app, in `Label-Wizard/app/labels/sampleLabels.json`, so every store has
+ * them and a rename shows up in that file rather than in someone's account. Renaming one there
+ * breaks a stage here, which is the trade for not depending on a store's own data.
+ */
+const SAMPLES = {
+  /** 4x1 carrying text, a barcode, an image, a rectangle and a flex region — most stages use it. */
+  everything: "Shoebox Label",
+  qr: "Round product QR Code",
+  shapes: "Product Label",
+  flex: "Markdown Sticker",
+};
+
+const SAMPLES_ROUTE = "#/app/sample_labels";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const failures = [];
@@ -173,11 +195,10 @@ async function openDesign(page, hash, title) {
     return true;
   }, title);
   if (!ok) {
-    // Overwhelmingly this is the harness pointing at a store that does not have the design,
-    // not a selector that stopped matching, and the two read identically from here.
     throw new Error(
       `openDesign: no Edit button for "${title}" on ${hash}. ` +
-        `Check the store picked in the harness, then run: npm run capture -- probe-designs`,
+        `If it is a sample, check the title in app/labels/sampleLabels.json. ` +
+        `Either way: npm run capture -- probe-designs`,
     );
   }
   await sleep(8000);
@@ -233,6 +254,28 @@ async function selectObject(page, predicate) {
   }
   await sleep(2500);
   return picked;
+}
+
+/**
+ * Advances the data-source card to the next record.
+ *
+ * The point of the shots that use this is that the canvas tracks whichever variant is highlighted,
+ * so it only has to be a different one, not a particular one. Driving the card's own next arrow
+ * keeps that true in a store whose products we know nothing about.
+ */
+async function nextRecord(page, settle = 4000) {
+  const ok = await page.evaluate(() => {
+    const next = document.querySelector('button[aria-label="Next"]');
+    if (next == null || next.disabled) return false;
+    next.click();
+    return true;
+  });
+  if (!ok) {
+    throw new Error(
+      "nextRecord: no enabled Next button. The store needs at least two variants for this shot.",
+    );
+  }
+  await sleep(settle);
 }
 
 /** The editor fills the window, so the window height is the only way to keep the shot short. */
@@ -398,19 +441,17 @@ await stage("design-label", async () => {
 
 await stage("editor-basics", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
   await mark(page, "selector", ".label-harness-editor-container");
   await shoot(page, "LabelEditorBasicsCanvas.png");
 });
 
 await stage("editor-variant", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
-  // Pick a variant other than the first so the preview visibly tracks the picker.
-  await clickText(page, "button", "Zuma Men's Base Layer - Black Neon Dawn Patrol - L", {
-    exact: true,
-    settle: 4000,
-  });
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
+  // Move off the first variant so the preview is visibly tracking the picker rather than just
+  // showing a default.
+  await nextRecord(page);
   // Keep the picker in frame: the point of the shot is that the highlighted row drives the canvas.
   await mark(page, "selector", ".label-harness-editor-container");
   await shoot(page, "DynamicProductDataVariantPreview.png");
@@ -418,7 +459,7 @@ await stage("editor-variant", async () => {
 
 await stage("editor-text", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
   await selectObject(page, { type: "LabelWizardTextBox" });
   await hideSection(page, "Advanced");
   await markSidebar(page);
@@ -429,7 +470,7 @@ await stage("editor-text", async () => {
 
 await stage("editor-attribute", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
   await selectObject(page, { type: "LabelWizardTextBox" });
   await hideSection(page, "Advanced");
   await clickText(page, "button", "Attribute", { exact: true, settle: 3000 });
@@ -439,7 +480,7 @@ await stage("editor-attribute", async () => {
 
 await stage("editor-barcode", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
   await selectObject(page, { type: "LabelWizardBarcode" });
   await hideSection(page, "Advanced");
   await markSidebar(page);
@@ -448,7 +489,7 @@ await stage("editor-barcode", async () => {
 
 await stage("editor-image", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
   await selectObject(page, { type: "LabelWizardImage" });
   await hideSection(page, "Advanced");
   await markSidebar(page);
@@ -457,7 +498,7 @@ await stage("editor-image", async () => {
 
 await stage("editor-qr", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/sample_labels", "Round product QR Code");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.qr);
   await selectObject(page, { type: "QR" });
   await hideSection(page, "Advanced");
   await markSidebar(page);
@@ -466,14 +507,14 @@ await stage("editor-qr", async () => {
 
 await stage("editor-shapes", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/sample_labels", "Product Label");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.shapes);
   await mark(page, "selector", ".label-harness-viewport");
   await shoot(page, "ImagesAndShapesOnCanvas.png");
 });
 
 await stage("editor-flex", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/sample_labels", "Markdown Sticker");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.flex);
   await selectObject(page, { type: "Flex" });
   await mark(page, "selector", ".label-harness-viewport");
   await shoot(page, "FlexRegionsOnCanvas.png");
@@ -484,7 +525,7 @@ await stage("editor-flex", async () => {
 
 await stage("editor-unsaved", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
   // Drop a rectangle on the canvas so the editor is dirty, then Print. Nothing is ever saved.
   await clickText(page, "button", "Shape", { exact: true, settle: 2000 });
   await clickText(page, "button", "Rectangle", { settle: 3000 });
@@ -503,16 +544,77 @@ await stage("print-page", async () => {
   await shoot(page, "PrintingLabelsPage.png");
 });
 
+/**
+ * A design key and a product to filter to, both taken from whatever the store has.
+ *
+ * Neither can be written down here. `label` is a saved design's metafield key and `variantId` a
+ * Shopify GID, so they differ in every store, and the key is not in the markup at all — the design
+ * card holds it in a closure and only reveals it by navigating. Pressing the card's own Print
+ * button and reading the address bar is how you get it without naming a store's design.
+ */
+async function printFilterFromStore() {
+  await goto(page, "#/app/label_design", 8000);
+  const opened = await page.evaluate(() => {
+    const print = [...document.querySelectorAll("button")].find(
+      (b) => (b.textContent ?? "").trim() === "Print labels",
+    );
+    if (print == null) return false;
+    print.click();
+    return true;
+  });
+  if (!opened) {
+    throw new Error(
+      "printFilterFromStore: no saved design to print. This shot needs a store with at least one " +
+        "saved design; samples alone are not enough, because the URL carries a metafield key.",
+    );
+  }
+  await sleep(9000);
+
+  const found = await page.evaluate(() => {
+    const label = new URLSearchParams(location.hash.split("?")[1] ?? "").get("label");
+    if (label == null) return { reason: "the Print button did not put a label key in the URL" };
+    const checkbox = document.querySelector('tbody input[type="checkbox"][id^="Select-gid://"]');
+    if (checkbox == null) return { reason: "the print list came up with no product rows" };
+    // The title shares its cell with the thumbnail, and the thumbnail contributes text: "No image"
+    // when there is none, the product's own name when there is. Reading the cell whole picks that
+    // up and the filter chip then reads "No imageSavory Blue / 24". Strip the media first.
+    const title = [...(checkbox.closest("tr")?.querySelectorAll("td") ?? [])]
+      .filter((td) => td.querySelector("input, button") == null)
+      .map((td) => {
+        const copy = td.cloneNode(true);
+        copy.querySelectorAll("img, svg, .Polaris-Thumbnail, .Polaris-Avatar").forEach((n) => n.remove());
+        // The product name and the variant options are separate elements in the same cell with no
+        // separator between them, so the cell's own text runs them together. Take the first block
+        // that has text: the chip wants the product, as it would read coming from the admin.
+        const leaf = [...copy.querySelectorAll("*")]
+          .filter((n) => n.childElementCount === 0)
+          .map((n) => (n.textContent ?? "").replace(/\s+/g, " ").trim())
+          .find((t) => t !== "");
+        return leaf ?? (copy.textContent ?? "").replace(/\s+/g, " ").trim();
+      })
+      .find((t) => t !== "");
+    return {
+      label,
+      variantId: checkbox.id.replace(/^Select-/, ""),
+      productTitle: title ?? "",
+    };
+  });
+  if (found.reason != null) throw new Error(`printFilterFromStore: ${found.reason}`);
+  return found;
+}
+
 await stage("print-filtered", async () => {
   await setWindow(page, 1500);
+  const filter = await printFilterFromStore();
+  console.log(`      filtering to: ${filter.productTitle} (${filter.label})`);
   const params = new URLSearchParams({
     limit: "20",
     page: "1",
     sortKey: "TITLE",
     sortDirection: "ASC",
-    label: "eliel-retail-price-tag-v2",
-    variantId: "gid://shopify/ProductVariant/33177734986",
-    productTitle: "Zuma Men's Base Layer - Black Neon Dawn Patrol",
+    label: filter.label,
+    variantId: filter.variantId,
+    productTitle: filter.productTitle,
   });
   await goto(page, `#/app/printlabels?${params.toString()}`, 9000);
   await keepRows(page, 5);
@@ -676,7 +778,7 @@ await probe("probe-templates", async () => {
 });
 
 await probe("probe-editor", async () => {
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
   const info = await page.evaluate(() => {
     const box = (sel) => {
       const n = document.querySelector(sel);
@@ -745,7 +847,7 @@ await probe("probe-designs", async () => {
 
 await probe("probe-print-dirty", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
   await page.evaluate(() => {
     const canvas = window.__lwCanvas;
     const obj = canvas.getObjects()[0];
@@ -775,6 +877,16 @@ await probe("probe-print-dirty", async () => {
 await probe("probe-print", async () => {
   await goto(page, "#/app/printlabels", 8000);
   const info = await page.evaluate(() => ({
+    // `firstPrintableRow` builds the filtered URL out of these, so when that stage fails this is
+    // the row it could not read.
+    firstRowControls: [
+      ...(document.querySelector("tbody tr")?.querySelectorAll("select,input,button") ?? []),
+    ].map((n) => {
+      const options = [...(n.options ?? [])].map((o) => `${o.value}|${o.textContent?.trim()}`);
+      return `${n.tagName.toLowerCase()}${n.type ? `[${n.type}]` : ""} id=${n.id || "-"} ${
+        options.length > 0 ? `options=${JSON.stringify(options.slice(0, 6))}` : `value=${n.value ?? ""}`
+      }`;
+    }),
     links: [...document.querySelectorAll("tbody tr")].slice(0, 3).map((tr) => ({
       text: (tr.textContent ?? "").replace(/\s+/g, " ").trim().slice(0, 60),
       ids: [...tr.querySelectorAll("[id],[data-product-id],[href]")]
@@ -789,7 +901,7 @@ await probe("probe-print", async () => {
 
 await probe("probe-unsaved", async () => {
   await page.setViewport({ width: 1180, height: 820, deviceScaleFactor: 2 });
-  await openDesign(page, "#/app/label_design", "Eliel Retail Price Tag V2");
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.everything);
   const before = await page.evaluate(() => [
     ...new Set([...document.querySelectorAll("button")].map((b) => (b.textContent ?? "").trim())),
   ]);
@@ -828,11 +940,8 @@ await probe("probe-stock", async () => {
 
 await probe("probe-qr", async () => {
   await setWindow(page, 860);
-  await openDesign(page, "#/app/sample_labels", "Round product QR Code");
-  await clickText(page, "button", "Summer Block Party Ventura Jersey - XS / Dragon", {
-    exact: true,
-    settle: 4000,
-  });
+  await openDesign(page, SAMPLES_ROUTE, SAMPLES.qr);
+  await nextRecord(page);
   const picked = await selectObject(page, { type: "QR" });
   console.log("QR OBJECTS:", JSON.stringify(picked.objects));
   const info = await page.evaluate(() => {

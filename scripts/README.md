@@ -22,16 +22,14 @@ cd ~/src/Label-Wizard && npm run dev:label-harness     # serves the harness on :
 cd ~/src/Help-Label-Wizard/scripts && npm install && npm run capture
 ```
 
-**Pick the Eliel Cycling store in the harness before running.** Every `editor-*` stage opens a
-design by name — "Eliel Retail Price Tag V2" and three samples — and those exist in that store
-only. Against any other store they fail with `openDesign: no Edit button for ...`, which reads
-like a broken selector and is not one. The harness remembers the choice in
-`Label-Wizard/node_modules/.cache/label-harness/selected-store.json`, and that file wins over
-`SHOP` in `.env`, so a store picked months ago is still the one in effect.
+Any store with a few products will do, and a development store is the right choice — nothing here
+names a design, product or variant. The `editor-*` stages open samples that ship in the app, in
+`Label-Wizard/app/labels/sampleLabels.json`, and the stages that need a product take whichever one
+the store lists first. Use a store you are willing to see in a published screenshot, because its
+product names and images end up in the images.
 
 Shots land in `v1/assets/en`, overwriting what is there. Review the diff before committing — a
-changed image is as much a content change as a changed sentence, and a shot taken against the
-wrong store looks fine in isolation.
+changed image is as much a content change as a changed sentence.
 
 | Variable      | Default                                                     |
 | ------------- | ----------------------------------------------------------- |
@@ -41,7 +39,9 @@ wrong store looks fine in isolation.
 
 ### Running part of it
 
-Name stages to run only those. Useful when one article needs a new shot and the rest are fine:
+Name stages to run only those, and normally do. A full run is around fifteen minutes: each stage
+reloads the harness and waits out a fixed settle so the canvas has finished rendering before the
+shot, and there are twenty-odd of them.
 
 ```bash
 npm run capture -- editor-text editor-barcode
@@ -63,4 +63,4 @@ npm run capture -- probe-editor
 
 That is faster than reading the app's source to work out what the selector should now be. Start
 with `probe-designs` for anything that failed in `openDesign`: it lists every design the harness
-can actually see, which usually shows you are pointed at the wrong store.
+can actually see, which tells you whether a sample was renamed in `sampleLabels.json`.
