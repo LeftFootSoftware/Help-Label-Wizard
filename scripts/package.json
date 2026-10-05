@@ -1,0 +1,12 @@
+{
+  "name": "help-label-wizard-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Tooling for the help content. Kept out of the repo root so the site itself stays a static bundle.",
+  "scripts": {
+    "capture": "node capture-screenshots.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^25.12.0"
+  }
+}
