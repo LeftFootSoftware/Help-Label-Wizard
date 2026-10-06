@@ -1,0 +1,50 @@
+name: Deploy help site
+
+on:
+  push:
+    branches: [main]
+  # A deploy that is missed or wedged can be re-run from the Actions tab without an empty commit.
+  workflow_dispatch:
+
+# deploy-pages mints an OIDC token for the github-pages environment; the default token is read-only.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Queue deploys instead of cancelling them: a cancelled publish leaves the site half-updated.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/configure-pages@v5
+
+      - name: Stage the published site
+        # Only what the viewer fetches. Uploading the repo root would also publish scripts/,
+        # the screenshot tooling, which has no reason to sit on a public CDN. Anything new that
+        # the site needs has to be added here as well.
+        run: |
+          mkdir -p _site
+          cp index.html config.json _site/
+          cp -R v1 _site/
+
+      - name: Fail if the article index did not make it into the upload
+        # A deploy that publishes an empty tree returns 404s that look identical to a DNS or
+        # cache problem, so check the one file the viewer cannot start without.
+        run: test -s _site/v1/locales/en.json
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
