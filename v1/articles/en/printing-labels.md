@@ -41,5 +41,5 @@ Each label printed uses plan credits or metered usage. See [Understanding plans 
 ### Related articles
 
 - [Setting label quantities](/category/printing/label-quantities)
-- [Printing labels from an order](/category/printing/print-from-order)
+- [Printing labels for an order](/category/printing/print-from-order)
 - [Getting the best print quality](/category/printing/print-quality-dpi)

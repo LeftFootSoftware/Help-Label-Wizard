@@ -28,10 +28,10 @@ Help text in Settings: you can change quantities on Print labels at any time.
 
 ### Inventory and locations
 
-When quantities follow inventory, pick the right **Location** filter first. Quantities match inventory for that location. Order-based printing uses ordered line quantities instead — see [Printing labels from an order](/category/printing/print-from-order).
+When quantities follow inventory, pick the right **Location** filter first. Quantities match inventory for that location. Order-based printing uses ordered line quantities instead — see [Printing labels for an order](/category/printing/print-from-order).
 
 ### Related articles
 
 - [Printing labels for your products](/category/printing/printing-labels)
 - [Printing labels for every product at once](/category/printing/print-all-products)
-- [Settings: language, units, and preferences](/category/account-troubleshooting/app-settings)
+- [Settings: language, units, default manufacturer and preferences](/category/account-troubleshooting/app-settings)

@@ -53,4 +53,4 @@ See [Printing labels for your products](/category/printing/printing-labels).
 
 - [Creating a new label design](/category/designing-labels/create-label-design)
 - [Printing labels for your products](/category/printing/printing-labels)
-- [Settings: language, units, and preferences](/category/account-troubleshooting/app-settings)
+- [Settings: language, units, default manufacturer and preferences](/category/account-troubleshooting/app-settings)
