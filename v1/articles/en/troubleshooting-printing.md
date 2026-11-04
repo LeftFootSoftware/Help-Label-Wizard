@@ -33,7 +33,7 @@ On a sheet you have used before, tell Label Wizard which positions are gone befo
 3. Check the counter, for example **2 positions skipped on the first sheet**.
 4. Print.
 
-The used positions stay blank, and labels start at the first free position. Choose **Clear** to undo the skipped positions. Skipping applies to the first sheet of the run only.
+The used positions stay blank, and labels start at the first free position. Choose **Clear** to undo the skipped positions. Skipping applies to the first sheet of the run only. See [Printing on a partly used label sheet](/category/printing/print-partly-used-sheet).
 
 ### Labels are misaligned on the sheet
 

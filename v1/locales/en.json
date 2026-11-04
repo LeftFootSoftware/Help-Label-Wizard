@@ -55,6 +55,7 @@
       "updated": "2026-10-04",
       "articles": [
         "printing-labels",
+        "print-partly-used-sheet",
         "label-quantities",
         "print-all-products",
         "print-from-order",
@@ -103,7 +104,7 @@
     "sheets-and-rolls": "2026-10-04",
     "custom-label-template": "2026-10-04",
     "design-library": "2026-10-04",
-    "printing-labels": "2026-10-04",
+    "printing-labels": "2026-11-04",
     "label-quantities": "2026-10-04",
     "print-all-products": "2026-10-04",
     "print-from-order": "2026-10-04",
@@ -112,6 +113,7 @@
     "admin-blocks-and-actions": "2026-10-04",
     "sidekick-labels": "2026-10-04",
     "app-settings": "2026-10-04",
-    "troubleshooting-printing": "2026-10-04"
+    "troubleshooting-printing": "2026-11-04",
+    "print-partly-used-sheet": "2026-11-04"
   }
 }
