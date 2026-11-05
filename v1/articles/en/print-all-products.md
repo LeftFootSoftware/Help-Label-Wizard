@@ -1,33 +1,36 @@
 ## Print labels for every product at once
 
-This guide explains **Select all** and the Print All flow when you need labels for your whole filtered catalog.
+Print the same number of labels for every product that matches your filters, across all pages of the list, in one run.
 
-### Select all products
+### Before you start
 
-1. Open **Print labels** and set any filters you need (location, search, product type).
-2. Select at least one row, then choose **Select all** for all products matching the current filters (not only the current page).
-3. The bulk Print action may read **Print All**.
+- A saved design at your label size. See [Create a label design](/category/designing-labels/create-label-design).
+- Enough credits, or the Unlimited plan, for a large run. See [How do plans and label credits work?](/category/getting-started/plans-and-credits)
 
-![screenshot:Print labels with Select all active and Print All action](PrintAllProductsSelectAll.png)
+### Print every product
 
-### Print All quantity step
+1. Open the design and choose **Print**. The **Print labels** page opens.
+2. Narrow the list if you need to: search by title or barcode, pick a **Location**, or choose **Add filter** for **Product types**, **Product status** or **Product tags**.
+3. Tick one product, then choose **Select all**, for example **Select all 2+ products**. The page says "All 2+ products are selected".
+4. Choose **Print All**.
+5. In **Print All Filtered Products**, type the **Quantity for all products**, then choose **Print All**.
+6. Choose your sheet or roll and print, as for any print. See [Print barcode labels for your products and variants](/category/printing/printing-labels).
 
-When Select all is active (and you are not printing from an order), Print may ask for a quantity to apply across the filtered set before opening the sheet/roll picker. Confirm carefully — this can generate a large number of labels.
+![screenshot:Print All Filtered Products dialog: "You have selected all filtered products (2 total products). This will print labels for all products matching your current filters across all pages.", Quantity for all products 1, Cancel and Print All](PrintAllFilteredDialog-v2.png)
 
-Order mode skips that “one quantity for everything” step because each line already has an ordered quantity.
+### How many labels print
 
-### Credits and large runs
+Every product in the filtered list gets the same quantity, and each variant counts as one product. Two variants at a quantity of 1 print 2 labels. The **Label Count** column hides while all products are selected, so counts you typed on single rows do not apply.
 
-Credits and usage are based on **total labels printed**. A full-catalog run can use many credits at once. Check your remaining credits or Pay As You Go usage before confirming. See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
+Each label uses one credit, so check the total before you choose **Print All**.
 
-### Tips
+### If something goes wrong
 
-- Narrow with filters first if you only need one product type or location.
-- Spot-check quantities on a few rows before printing everything.
-- For a single product’s variants, prefer launching Print from that product instead of Select all.
+- **The run includes products you do not want:** choose **Cancel**, then narrow the list with search or filters before **Select all**.
+- **You need different counts per product:** choose **Undo** next to "All ... products are selected", then set counts row by row or with **Set Quantity**. See [Set how many labels print](/category/printing/label-quantities).
+- **A filter hides products you need:** **Product status** offers **Active**, **Archived**, **Draft** and **Unlisted**. Clear it to include every status.
 
 ### Related articles
 
 - [Print barcode labels for your products and variants](/category/printing/printing-labels)
-- [Set how many labels print](/category/printing/label-quantities)
-- [Print labels from a product page](/category/printing/admin-blocks-and-actions)
+- [How do plans and label credits work?](/category/getting-started/plans-and-credits)
