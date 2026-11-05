@@ -1,40 +1,37 @@
-## Settings: language, units, default manufacturer and preferences
+## Change your app settings
 
-This guide explains the Settings page: language, units, print resolution, default print quantity, and account/billing links.
+Set the app's language and units, and choose how printing starts: the DPI, the starting quantities, and whether you get a print dialog or a PDF.
 
-### Open Settings
+### Before you start
 
-Choose **Settings** in Label Wizard navigation.
+- Open Label Wizard and choose **Settings** in the app's menu.
 
-![screenshot:Settings page overview with language, units, and print preferences](AppSettingsPage.png)
+Changes save as soon as you make them. There is no Save button on this page.
 
-### Language
+### Account Information
 
-Use **Language** / **Select language** to change the app UI language for your session. Available languages depend on what Label Wizard ships.
+Shows your plan and billing, with a **Change plan** button. See [How do plans and label credits work?](/category/getting-started/plans-and-credits)
 
-### Unit settings
+### Language and Unit Settings
 
-**Unit Settings** control whether sizes are shown in **mm**, **cm**, or **in**. This affects design and template dimensions in the UI. Pick the unit you use when buying stock.
+- **Language:** the language of the app's screens.
+- **Unit:** **mm**, **cm** or **in**, for the sizes the app shows. Pages with their own **mm**, **cm** and **in** buttons, such as **Sheets and rolls**, let you switch there too.
 
-### Print resolution
+### Print settings
 
-**Print resolution** sets the default DPI for printing: **203**, **300**, or **600**. See [Getting the best print quality](/category/printing/print-quality-dpi).
+- **Default printer DPI** (under **Print resolution**): the DPI the print window starts at. Choose 203 for thermal label printers, 300 for laser, or 600 for high-resolution devices. You can still change it each time you print.
+- **When opening Print labels** (under **Default print quantity**): start each product at **Inventory on hand** or at **1 label per product**. You can change quantities on the print page at any time. See [Set how many labels print](/category/printing/label-quantities).
+- **When you print** (under **Print action**): **Open the print dialog** to print straight away, or **Download a PDF** to print later.
 
-### Default print quantity
+![screenshot:Settings print cards: Print resolution with Default printer DPI 300 DPI, Default print quantity with When opening Print labels set to Inventory on hand, and Print action with When you print set to Open the print dialog](AppSettingsPrint-v2.png)
 
-**Default print quantity** controls the starting quantity when you open Print labels:
+### If something goes wrong
 
-- **1 label per product**
-- **Inventory on hand**
-
-You can always change quantities on the Print labels page. See [Setting label quantities](/category/printing/label-quantities).
-
-### Account and billing
-
-Settings also show account information such as **Remaining Credits** or cycle usage, plus **Change plan** / billing links when applicable. See [Understanding plans and label credits](/category/getting-started/plans-and-credits).
+- **Every print starts at the wrong DPI:** change **Default printer DPI** here, not only in the print window.
+- **The print page starts with 0 labels for some products:** **Inventory on hand** uses your stock count, so items with no stock start at 0. Type a quantity, or switch to **1 label per product**.
+- **Nothing seems to happen when you print:** with **Download a PDF**, the file goes to your downloads. Open it and print from there.
 
 ### Related articles
 
-- [Getting started with Label Wizard](/category/getting-started/getting-started-with-label-wizard)
-- [Setting label quantities](/category/printing/label-quantities)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [How do plans and label credits work?](/category/getting-started/plans-and-credits)

@@ -1,43 +1,56 @@
-## Adding and formatting text
+## Add text, images and shapes
 
-This guide explains how to add text boxes and format fonts, sizes, styles, colors, shadows, and mixed formatting.
+Add words, product photos, logos and shapes to a label, and set how each one looks.
 
-### Add a text box
+### Before you start
 
-1. Open your design in the editor.
-2. Add a **Text** object from the toolbar.
-3. Double-click or use the sidebar to edit the content.
+- A design open in the editor. See [Find your way around the label editor](/category/designing-labels/label-editor-basics).
 
-![screenshot:Text object selected with font and style controls in the sidebar](TextAndRichTextSidebar.png)
+### Add text
 
-### Font, size, and style
+1. Choose **Add object**, then **Text**.
+2. Click inside the text box in the panel and type your words. To add a product field, type **@**.
+3. Under **Style**, choose the **Font family**, the **Text** colour and the **Font size**.
+4. Choose **Save** in the **Unsaved changes** bar.
 
-In the sidebar you can typically change:
+![screenshot:Text section of a new text element: Rich text unticked, Attribute and Formula buttons, an empty text box with the hint "Type your text here. Use @ to insert a product attribute or $ for a formula.", and Hide when empty](TextPanelNewText-v2.png)
 
-- Font family
-- Font size
-- Bold, italic, and other style toggles
-- Text color
-- Shadow (when you want depth behind the text)
+For fields and formulas, see [Show product data on a label](/category/designing-labels/dynamic-product-data) and [Format values with formulas](/category/designing-labels/formulas-and-expressions).
 
-### Rich text (mixed formatting)
+### Format text
 
-Some text boxes support **rich text**, so part of a line can be bold or a different size while the rest stays normal. Select the characters you want to change before applying a style.
+- **Font style:** bold, italic, strikethrough, underline and overline.
+- **Horizontal** and **Vertical:** where the text sits inside its box.
+- **Size range:** lets long text shrink to fit. See [Fit long product names on a label](/category/designing-labels/flex-regions).
+- **Rich text:** tick it to format part of the text. A toolbar appears with bold, italic, underline, bullet and numbered lists, alignment, font, size and **Text** colour. Select the words, then choose the format.
+- **Advanced:** **Line height**, **Spacing**, **Stroke**, **Padding**, a shadow **Type** (**None**, **Subtle**, **Medium**, **Strong** or **Very strong**), and exact position, **Rotation**, **Flip X** and **Flip Y**.
 
-### Product data inside text
+### Add an image
 
-You can insert product fields (title, price, SKU, and more) into text. See [Showing product data on labels](/category/designing-labels/dynamic-product-data).
+1. Choose **Add object**, then **Image**.
+2. In **Select image type**, choose **Product image** or **Variant image** to show each product's own photo, or **Custom** for an image of your own, such as a logo.
+3. Drag the corner handles to size it.
+4. In the **Variant** panel, check a few products.
 
-When a field is empty for a product, that part of the text can appear blank on the printed label — that is expected when the data is missing.
+![screenshot:Select image type dialog with Custom, Product image and Variant image](ImageTypeDialog-v2.png)
 
-### Tips for readable labels
+Under **Style**, **Opacity** fades the image and **Make background transparent** removes its background. To change the source later, use **Image type** in the panel.
 
-- Keep body text large enough for the physical label size.
-- Prefer high contrast (dark text on a light label).
-- Check the preview with a real variant before a large print run.
+### Add a shape
+
+1. Choose **Add object**, then **Shape**.
+2. In **Select shape**, choose **Box**, **Rectangle**, **Circle**, **Ellipse**, **Line**, **Triangle** or **Polygon**.
+3. In the panel, set **Fill**, **Stroke**, **Border width** and, for corners, **Corner radius**.
+
+Use shapes for borders, colour blocks and dividers.
+
+### If something goes wrong
+
+- **Typing @ does nothing:** click inside the text box first, then type **@**.
+- **A shape or image covers the price or barcode:** select it, choose **Layers**, then **Send to Back**.
+- **Text prints too small to read:** raise **Min** under **Size range**, or make the text box larger.
 
 ### Related articles
 
-- [Using the label editor](/category/designing-labels/label-editor-basics)
-- [Formulas and advanced fields](/category/designing-labels/formulas-and-expressions)
-- [Flex regions](/category/designing-labels/flex-regions)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

@@ -1,54 +1,48 @@
-## Using the label editor
+## Find your way around the label editor
 
-This guide covers the label editor layout: toolbar, sidebar, zoom, alignment, clipboard, undo, and saving.
+The editor shows your label on a canvas, with a toolbar above it and a **Variant** panel beside it. Here is what each part does.
 
-### Editor layout
+### Before you start
 
-When a design is open you typically see:
+- A design to open. See [Create a label design](/category/designing-labels/create-label-design).
 
-- A **canvas** with your label
-- A **toolbar** for adding objects and common actions
-- A **sidebar** for the selected object’s properties
-- Zoom controls so you can work at a comfortable scale
+### The editor at a glance
 
-![screenshot:Label editor with toolbar, canvas, and sidebar visible](LabelEditorBasicsCanvas.png)
+- **Top bar:** **My designs** takes you back to your designs. **Print** opens the print page for this design.
+- **Toolbar:** the buttons above the canvas, described below, then zoom out (**-**), the zoom level and zoom in (**+**).
+- **Canvas:** your label at its real proportions, filled with the product chosen in the **Variant** panel. Its name and size show under it.
+- **Variant panel:** choose the product to preview. Search with **Filter variants**, narrow with **Product types**, **Product status** or **Product tags**, or step through products with the arrows.
+- **Settings panel:** select an object on the canvas and its settings open below the **Variant** panel.
 
-### Adding objects
+![screenshot:Label editor for Product barcode label: toolbar and zoom above the canvas, Canvas Tote - Natural on the label, and the Variant panel with Canvas Tote - Natural selected](StartHereEditor-v2.png)
 
-Use the add-object controls to place:
+### The toolbar buttons, left to right
 
-- **Text**
-- **Image**
-- **Barcode**
-- **QR code**
-- Shapes (rectangle, circle, line, and others)
-- **Flex region** (content that adjusts inside a fixed area)
+- **Add object:** **Text**, **Image**, **Shape**, **Barcode**, **QR Code** or **Flex region**.
+- **Edit:** **Delete**, **Copy** or **Paste** the selected object.
+- **Layers:** **Bring to Front**, **Bring Forward**, **Send Backward** or **Send to Back**.
+- **Align to label:** line the object up with the left, right, top or bottom edge, or **Center horizontally** or **Center vertically**.
+- **Align and distribute:** line up two or more objects with each other, space them evenly, or **Group** them to move together.
+- **History:** **Undo** or **Redo**.
+- **Canvas:** **Background** sets a colour for the whole label. **Switch to portrait** turns the label. **Export image** is here too.
 
-Select an object to edit it in the sidebar.
+**Edit**, **Layers**, **Align to label** and **Align and distribute** stay grey until you select an object. To select more than one, hold Shift and click each object.
 
-### Align and arrange
+### Save your changes
 
-Use alignment tools to line objects up with each other or with the label edges. Group related objects when you want to move them together.
+Any change shows the **Unsaved changes** bar at the top. Choose **Save** to keep your changes, or **Discard** to drop them.
 
-### Clipboard and undo
+If you choose **Print** before saving, the app asks "You have unsaved changes. Save your label before printing?" Choose **Save & Print** to print the latest version, or **Print without saving**.
 
-- Copy, paste, and duplicate objects with the editor clipboard actions.
-- Use undo/redo when available after edits.
+![screenshot:Unsaved changes dialog with Print without saving, Cancel and Save & Print](LabelEditorUnsavedPrint.png)
 
-### Zoom and pan
+### If something goes wrong
 
-Zoom in to fine-tune barcodes and small text. Zoom out to see the full label. Use pan (when available in your workspace) to move around large designs.
-
-### Saving and printing from the editor
-
-1. **Save** regularly so your design is stored with your shop.
-2. To print, use print from a saved design or open **Print labels**.
-3. If you try to print with unsaved changes, the app may offer **Save & Print** or **Print without saving**.
-
-![screenshot:Unsaved changes dialog with Save and Print options](LabelEditorUnsavedPrint.png)
+- **A toolbar button is grey:** select an object on the canvas first.
+- **Align and distribute is grey:** it needs two or more objects. Hold Shift and click each one.
+- **The canvas shows another product's data:** choose the product in the **Variant** panel. The preview changes; the design does not.
 
 ### Related articles
 
-- [Creating a new label design](/category/designing-labels/create-label-design)
-- [Adding and formatting text](/category/designing-labels/text-and-rich-text)
-- [Showing product data on labels](/category/designing-labels/dynamic-product-data)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

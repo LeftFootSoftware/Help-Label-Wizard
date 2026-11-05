@@ -1,40 +1,42 @@
-## Creating a custom sheet or roll template
+## Add a label size that isn't listed
 
-This guide explains how to add a custom sheet or roll template: labels per sheet, margins, spacing, rows and columns, and how to clone or delete templates.
+If your sheet or roll is not in **Sheets and rolls**, add its measurements once and use it like any listed stock.
 
-### When you need a custom template
+### Before you start
 
-Create a custom template when your physical stock is not listed under **Sheets and rolls**, or when you need different margins or label counts than the catalog provides.
+- One sheet (or a length of roll) from your stock and a ruler.
+- Measure: the label's width and height, how many labels go across and down, the gap between labels, and the margin from the page edge to the first label.
 
-### Add a custom template
+### Describe the page
 
-1. Open **Sheets and rolls**.
-2. Choose **Add custom**.
-3. Enter a clear **name**.
-4. Set **shape** (rectangle or circle) and label dimensions.
-5. Choose stock type (sheet vs continuous) as the form allows.
-6. For sheets, set:
-   - Rows and columns (labels per sheet)
-   - Horizontal and vertical spacing
-   - Page/sheet size
-   - Margins (top, bottom, left, right)
-7. Save the template.
+1. In the sidebar, open **Sheets and rolls**, then choose **Add custom**. The **Add custom size** window opens.
+2. In **Name**, type a name you will recognise, for example "Kraft tags 2 x 1 in".
+3. Under **Display units**, choose **mm**, **cm** or **in**.
+4. In **Sheet or roll**, choose **Sheet** for a page of labels, or **Continuous Feed** for a roll.
+5. For a sheet, choose its **Paper Size**, for example **Letter**. To type your own page width and height, choose **Custom**.
+   For a roll, type the strip's **Width** and **Height**.
 
-![screenshot:Add custom template form with dimensions and layout fields](CustomLabelTemplateForm.png)
+### Describe the labels
 
-### Preview and validation
+1. Choose the **Shape**, then type **Label Length** and **Label Height**.
+2. Under **Table Layout**, type the number of **Rows** and **Columns**. **Labels per Sheet** fills in by itself.
+3. Under **Spacing**, type the **Horizontal** and **Vertical** gaps between labels.
+4. Under **Margins**, type **Top**, **Bottom**, **Left** and **Right**.
+5. Check the preview on the right, then choose **Save size**.
 
-The form may auto-calculate labels per sheet from rows and columns. Fix any validation messages (for example layout that does not fit the page) before saving.
+![screenshot:Add custom size window with an empty Name field, Display units set to in, Sheet or roll set to Sheet, Paper Size set to Letter and the Save size button greyed out](CustomLabelTemplateForm-v2.png)
 
-### Duplicate and delete
+### What happens
 
-- **Duplicate** an existing template when you only need small changes.
-- Delete custom templates you no longer use. Confirm the delete dialog — this does not delete your saved label designs, but those designs may still reference the old size.
+Your size is saved in **Sheets and rolls** under the manufacturer **Custom**. Choose **Design a label** on its row to start a design, and pick it when you print.
 
-<!-- SCREENSHOT: CustomLabelTemplateSaved.png | Sheets and rolls list showing a saved custom template | source: harness -->
+### If something goes wrong
+
+- **Save size stays grey:** the form is not complete yet. Fill in every field, starting with **Name**.
+- **Labels print shifted on the sheet:** measure the margins and gaps again, then check the scale in your print dialog. See [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing).
 
 ### Related articles
 
-- [Finding your label sheet in Sheets & Rolls](/category/sheets-rolls-templates/sheets-and-rolls)
-- [Getting the best print quality](/category/printing/print-quality-dpi)
-- [Creating a new label design](/category/designing-labels/create-label-design)
+- [Which label stock and printer do I need?](/category/getting-started/choosing-label-stock)
+- [Create a label design](/category/designing-labels/create-label-design)
+- [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi)

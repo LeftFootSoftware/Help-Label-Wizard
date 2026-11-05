@@ -1,48 +1,77 @@
-## Understanding plans and label credits
+## How do plans and label credits work?
 
-This guide explains Label Wizard plans, what counts as a label generation, and how credits work on Free and Standard plans.
+Label Wizard has two plans: Start Free charges a few cents per label after 20 free ones every 30 days, and Unlimited is a flat monthly price.
 
-### Plans at a glance
+### The two plans
 
-Label Wizard offers several plans. Names you may see in the app include:
+**Start Free**
 
-- **Free** and **Standard** — include a pool of print credits
-- **Pay As You Go** — usage is billed through Shopify each cycle
-- **Unlimited** — uncapped label printing (no local credit balance)
+- $0 / 30 days, plus usage
+- 20 free labels every 30 days, then $0.03 each (less above 500)
+- Free setup help: chat, email and Zoom
 
-Your current plan and usage appear in **Settings** and in the Print labels title area when you are on a metered plan.
+**Unlimited**
 
-<!-- SCREENSHOT: PlansAndCreditsSettings.png | Settings page showing remaining credits or billing status | source: harness -->
+- $24.99 / 30 days, or $199/year
+- Unlimited labels, no per-label fee
+- Everything in Start Free, plus priority chat, email and Zoom support
 
-### What counts as a label generation
+Both plans have the same designer, label sizes and printing. There is no limit on designs or sheet sizes on either plan.
 
-Credits and usage are based on **how many labels you print**, not how many products you select or how many designs you save.
+### What uses label credits
 
-Example: if you print 3 labels for one product and 2 for another in the same run, that counts as **5** labels.
+One printed label uses one label credit. Credits count labels, not products or designs.
 
-### Print credits (Free and Standard)
+For example, if you print 3 labels for one product and 2 for another in the same run, that run uses 5 credits.
 
-On Free and Standard plans, Label Wizard tracks a local **print credit** balance.
+These do not use credits:
 
-- Printing uses credits equal to the number of labels generated.
-- If you do not have enough credits, the app shows an **Insufficient credits** message and asks you to upgrade or change your plan.
-- When credits are low, the Dashboard may show **Running low on print credits**.
+- Creating, editing and saving designs
+- Previewing labels in the editor or in the sheet picker
+- Opening the **Select a sheet or roll to print** window and choosing **Cancel**
 
-Creating and editing designs is separate from printing. Printing is what uses credits.
+### What Start Free costs
 
-### Pay As You Go and Unlimited
+After the first 20 labels in each 30-day cycle, each label costs less as you print more:
 
-- **Pay As You Go** meters label generations to Shopify. You may see **Label Generations this cycle** in the app.
-- **Unlimited** does not use a local credit balance. Label printing is uncapped under that plan’s terms.
+- First 20 labels: free
+- Labels 21 to 500: $0.03 each
+- Labels 501 to 1,000: $0.02 each
+- Labels 1,001 and more: $0.01 each
 
-### Changing your plan
+Each price applies only to the labels inside its band. Some examples:
 
-1. Open **Plans** (or **Change plan** from Settings).
-2. Review **Current Plan** and available options.
-3. Use **Manage your subscription** when Shopify billing applies to your plan.
+- 100 labels: $2.40
+- 300 labels: $8.40
+- 500 labels: $14.40
+- 1,000 labels: $24.40
+
+At about 1,060 labels in 30 days, Start Free costs the same as Unlimited's monthly price. If you print more than that every month, Unlimited costs less.
+
+Usage charges appear on your Shopify bill. Prices are in US dollars.
+
+### Check your plan and credits
+
+1. Open **Settings**.
+2. Find **Account Information**. It shows your plan and billing.
+
+While you design or print, the top of the page shows **Remaining Credits**.
+
+### Change your plan
+
+1. Open **Settings**.
+2. Under **Account Information**, choose **Change plan**.
+3. On **Select a plan**, choose **Pay monthly** or **Pay yearly**.
+4. Choose the plan you want, then approve it.
+
+### If something goes wrong
+
+- **You expected to pay nothing:** the first 20 labels in each 30-day cycle are free. Labels after that are charged per label on Start Free.
+- **Your bill shows a usage charge you do not recognise:** count the labels you printed in that cycle. Each printed label is one credit, including reprints.
+- **You have a billing question:** choose **Chat with us** on the Label Wizard Dashboard.
 
 ### Related articles
 
-- [Getting started with Label Wizard](/category/getting-started/getting-started-with-label-wizard)
-- [Printing labels for your products](/category/printing/printing-labels)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Change your app settings](/category/sheets-rolls-templates/app-settings)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

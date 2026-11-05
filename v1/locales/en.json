@@ -3,11 +3,11 @@
   "categories": [
     {
       "slug": "getting-started",
-      "title": "Getting Started",
+      "title": "Get started",
       "icon": "getting-started.svg",
-      "description": "Install Label Wizard, understand credits, and choose your label stock.",
+      "description": "Print your first label, see what it costs, and pick the right label stock.",
       "author": "Brian McKinley",
-      "updated": "2026-10-04",
+      "updated": "2026-11-05",
       "articles": [
         "getting-started-with-label-wizard",
         "plans-and-credits",
@@ -15,103 +15,99 @@
       ]
     },
     {
-      "slug": "designing-labels",
-      "title": "Designing Labels",
-      "icon": "designing-labels.svg",
-      "description": "Create and edit label designs, text, barcodes, images, and product data.",
-      "author": "Brian McKinley",
-      "updated": "2026-10-04",
-      "articles": [
-        "create-label-design",
-        "label-editor-basics",
-        "text-and-rich-text",
-        "adding-barcodes",
-        "adding-qr-codes",
-        "images-and-shapes",
-        "dynamic-product-data",
-        "formulas-and-expressions",
-        "flex-regions"
-      ]
-    },
-    {
       "slug": "sheets-rolls-templates",
-      "title": "Sheets, Rolls and Templates",
+      "title": "Set up labels and printer",
       "icon": "sheets-rolls-templates.svg",
-      "description": "Find manufacturer stock, create custom templates, and use the design library.",
+      "description": "Find your label sheet or roll, add a custom size, and set up your printer and app settings.",
       "author": "Brian McKinley",
-      "updated": "2026-10-04",
+      "updated": "2026-11-05",
       "articles": [
         "sheets-and-rolls",
         "custom-label-template",
-        "design-library"
+        "thermal-printers",
+        "app-settings"
+      ]
+    },
+    {
+      "slug": "designing-labels",
+      "title": "Design labels",
+      "icon": "designing-labels.svg",
+      "description": "Build a label once, fill it with live product data, and reuse it for every product.",
+      "author": "Brian McKinley",
+      "updated": "2026-11-05",
+      "articles": [
+        "create-label-design",
+        "design-library",
+        "manage-saved-designs",
+        "label-editor-basics",
+        "sidekick-labels",
+        "text-and-rich-text",
+        "adding-barcodes",
+        "adding-qr-codes",
+        "flex-regions",
+        "dynamic-product-data",
+        "print-price-sale-tags",
+        "formulas-and-expressions"
       ]
     },
     {
       "slug": "printing",
-      "title": "Printing",
+      "title": "Print labels",
       "icon": "printing.svg",
-      "description": "Print labels for products and orders, set quantities, and get the best print quality.",
+      "description": "Print labels for one product, every product, or an order, on fresh or partly used sheets.",
       "author": "Brian McKinley",
-      "updated": "2026-10-04",
+      "updated": "2026-11-05",
       "articles": [
         "printing-labels",
+        "print-partly-used-sheet",
         "label-quantities",
         "print-all-products",
         "print-from-order",
-        "print-quality-dpi",
-        "thermal-printers"
-      ]
-    },
-    {
-      "slug": "shopify-admin",
-      "title": "Working from Shopify Admin",
-      "icon": "shopify-admin.svg",
-      "description": "Use Label Wizard on product and variant pages, and with Shopify Sidekick.",
-      "author": "Brian McKinley",
-      "updated": "2026-10-04",
-      "articles": [
-        "admin-blocks-and-actions",
-        "sidekick-labels"
+        "admin-blocks-and-actions"
       ]
     },
     {
       "slug": "account-troubleshooting",
-      "title": "Account and Troubleshooting",
+      "title": "Fix a problem",
       "icon": "account-troubleshooting.svg",
-      "description": "App settings and fixes for common printing problems.",
+      "description": "Find what you see, then follow the fix. Or contact the Label Wizard team.",
       "author": "Brian McKinley",
-      "updated": "2026-10-04",
+      "updated": "2026-11-05",
       "articles": [
-        "app-settings",
-        "troubleshooting-printing"
+        "troubleshooting-printing",
+        "print-quality-dpi",
+        "products-without-barcodes"
       ]
     }
   ],
   "articleUpdates": {
-    "getting-started-with-label-wizard": "2026-10-04",
-    "plans-and-credits": "2026-10-04",
-    "choosing-label-stock": "2026-10-04",
-    "create-label-design": "2026-10-04",
-    "label-editor-basics": "2026-10-04",
-    "text-and-rich-text": "2026-10-04",
-    "adding-barcodes": "2026-10-04",
-    "adding-qr-codes": "2026-10-04",
-    "images-and-shapes": "2026-10-04",
-    "dynamic-product-data": "2026-10-04",
-    "formulas-and-expressions": "2026-10-04",
-    "flex-regions": "2026-10-04",
-    "sheets-and-rolls": "2026-10-04",
-    "custom-label-template": "2026-10-04",
-    "design-library": "2026-10-04",
-    "printing-labels": "2026-10-04",
-    "label-quantities": "2026-10-04",
-    "print-all-products": "2026-10-04",
-    "print-from-order": "2026-10-04",
-    "print-quality-dpi": "2026-10-04",
-    "thermal-printers": "2026-10-04",
-    "admin-blocks-and-actions": "2026-10-04",
-    "sidekick-labels": "2026-10-04",
-    "app-settings": "2026-10-04",
-    "troubleshooting-printing": "2026-10-04"
+    "getting-started-with-label-wizard": "2026-11-05",
+    "plans-and-credits": "2026-11-05",
+    "choosing-label-stock": "2026-11-05",
+    "create-label-design": "2026-11-05",
+    "label-editor-basics": "2026-11-05",
+    "text-and-rich-text": "2026-11-05",
+    "adding-barcodes": "2026-11-05",
+    "adding-qr-codes": "2026-11-05",
+    "dynamic-product-data": "2026-11-05",
+    "formulas-and-expressions": "2026-11-05",
+    "flex-regions": "2026-11-05",
+    "sheets-and-rolls": "2026-11-05",
+    "custom-label-template": "2026-11-05",
+    "design-library": "2026-11-05",
+    "manage-saved-designs": "2026-11-05",
+    "printing-labels": "2026-11-04",
+    "label-quantities": "2026-11-05",
+    "print-all-products": "2026-11-05",
+    "print-from-order": "2026-11-05",
+    "print-quality-dpi": "2026-11-05",
+    "products-without-barcodes": "2026-11-05",
+    "thermal-printers": "2026-11-05",
+    "admin-blocks-and-actions": "2026-11-05",
+    "sidekick-labels": "2026-11-05",
+    "app-settings": "2026-11-05",
+    "troubleshooting-printing": "2026-11-04",
+    "print-partly-used-sheet": "2026-11-04",
+    "print-price-sale-tags": "2026-11-05"
   }
 }

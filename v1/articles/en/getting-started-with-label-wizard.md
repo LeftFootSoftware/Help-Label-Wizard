@@ -1,56 +1,63 @@
-## Getting started with Label Wizard
+## Start here: print your first label
 
-This guide walks you through installing Label Wizard and designing and printing your first label from the Dashboard.
+Print your first barcode label: match your label stock, add your product's barcode and name, and print.
 
-### Step 1: Install the app
+### Before you start
 
-1. Open Label Wizard in the Shopify App Store and choose **Add app**.
-2. Approve the requested permissions for your store.
-3. After install, Shopify opens the app in admin. You land on the **Dashboard** (the same home screen you get whenever you open Label Wizard from **Apps**).
+- Label Wizard installed from the Shopify App Store.
+- A product with a barcode (or a SKU) in Shopify.
+- Your label stock, with the part number or size on its pack, for example Avery 5160.
+- A printer. Start Free includes 20 free labels every 30 days. See [How do plans and label credits work?](/category/getting-started/plans-and-credits)
 
-<!-- SCREENSHOT: GettingStartedAppNav.png | Shopify admin Apps menu with Label Wizard selected | source: admin -->
+### 1. Find your label stock
 
-### Step 2: Use the Dashboard
+1. In your Shopify admin, open **Apps**, then **Label Wizard**. The **Dashboard** opens.
+2. In the sidebar, open **Sheets and rolls**.
+3. In **Search sheets and rolls**, type the part number on your pack, for example **5160**.
+4. On the matching row, choose **Design a label**.
+5. Type a name in **Design name**, for example "Product barcode label", and choose **Create**.
 
-The **Dashboard** is where you start. From here you can:
+The label editor opens at your stock's label size.
 
-- Start a new design (**Design a label**)
-- Open **Your designs**
-- Browse ready-made designs or start from a sheet or roll
-- Print labels for products
+![screenshot:Sheets and rolls page searched for 5160, showing one row for Avery 5160 with its label size 2.59 x 1.00 in, layout 10 x 3 with 30 labels, Letter paper and the Design a label button](SheetsAndRollsSearch-v2.png)
 
-![screenshot:Dashboard showing Your designs](GettingStartedDashboard.png)
+If your stock is not listed, see [Add a label size that isn't listed](/category/sheets-rolls-templates/custom-label-template).
 
-### Step 3: Design your first label
+### 2. Add the barcode and the product name
 
-1. Choose **Design a label**.
-2. Pick how you want to start:
-   - **Browse ready-made designs** — start from a sample layout
-   - **Start from a sheet or roll** — match a manufacturer template (for example Avery or Online Labels)
-   - **Start from scratch** — choose shape and size yourself
-3. Add text, barcodes, or product fields as needed, then **Save**.
+1. In the **Variant** panel, choose one of your products. The label previews with its data.
+2. Choose **Add object** (the **+** button), then **Barcode**.
+3. In the barcode's **Field**, choose **Barcode**. The barcode shows your product's number.
+4. Choose **Add object** again, then **Text**.
+5. In the text box, type **@** and choose **Variant.DisplayName**.
+6. Drag the barcode and the text where you want them on the label.
+7. Choose **Save** in the **Unsaved changes** bar.
 
-See [Creating a new label design](/category/designing-labels/create-label-design) for more detail.
+![screenshot:Label editor for the design Product barcode label, showing the product name Canvas Tote - Natural above its barcode, with Canvas Tote - Natural selected in the Variant panel](StartHereEditor-v2.png)
 
-![screenshot:Design a label page with ready-made designs and sheet search](GettingStartedFirstDesign.png)
+### 3. Print
 
-### Step 4: Print labels
+1. Choose **Print** at the top right of the editor. The **Print labels** page opens.
+2. In **Search products by title or barcode**, find your product and tick its rows.
+3. Check the number in each row's quantity box, and change it if you need more or fewer labels.
+4. Choose **Print N labels** (for example **Print 2 labels**). The **Select a sheet or roll to print** window opens with your stock chosen.
+5. Choose **Print N labels** in the window.
+6. In your browser's print dialog, set scale to 100% and print.
 
-1. Open **Print labels** (from the navigation or from a saved design).
-2. Select one or more products.
-3. Set quantities if needed, then choose **Print**.
-4. Pick your sheet or roll and print settings, then confirm.
+### What happens
 
-See [Printing labels for your products](/category/printing/printing-labels).
+Label Wizard generates your labels and shows "Successfully Printed N labels from N selected products". Your design is saved in **My designs**, so next time you only repeat step 3.
 
-### What’s next
+![screenshot:A printed label for Canvas Tote with the SKU QM-CT-NAT, the price $32.00 and a barcode reading 05065023978496](StartHerePrintedLabel.png)
 
-- [Understanding plans and label credits](/category/getting-started/plans-and-credits)
-- [Choosing your label stock](/category/getting-started/choosing-label-stock)
-- [Label Wizard on product and variant pages](/category/shopify-admin/admin-blocks-and-actions)
+### If something goes wrong
+
+- **The quantity is 0:** your **Default print quantity** setting is **Inventory on hand**, and the product has no stock at that location. Type the number of labels you want.
+- **Your sheet is not in the print window:** the sheet's size does not match the design. See [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing).
+- **The label prints without a barcode:** that variant has no barcode in Shopify. Add it to the variant and print again.
 
 ### Related articles
 
-- [Creating a new label design](/category/designing-labels/create-label-design)
-- [Printing labels for your products](/category/printing/printing-labels)
-- [Settings: language, units, default manufacturer and preferences](/category/account-troubleshooting/app-settings)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Find your label sheet or roll (Avery, Online Labels, Dymo, Uline)](/category/sheets-rolls-templates/sheets-and-rolls)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)
