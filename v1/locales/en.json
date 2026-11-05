@@ -46,6 +46,7 @@
         "adding-qr-codes",
         "flex-regions",
         "dynamic-product-data",
+        "print-price-sale-tags",
         "formulas-and-expressions"
       ]
     },
@@ -104,6 +105,7 @@
     "sidekick-labels": "2026-10-04",
     "app-settings": "2026-10-04",
     "troubleshooting-printing": "2026-11-04",
-    "print-partly-used-sheet": "2026-11-04"
+    "print-partly-used-sheet": "2026-11-04",
+    "print-price-sale-tags": "2026-11-05"
   }
 }
