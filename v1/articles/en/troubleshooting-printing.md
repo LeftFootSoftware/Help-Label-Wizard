@@ -11,7 +11,6 @@ Find the problem you see below, follow its steps, and print again. If nothing he
 | A barcode does not scan | Size or barcode format | Barcode will not scan |
 | A price prints blank or with no currency sign | The field was typed, not inserted | A price or formula prints blank |
 | A PDF downloads when you expected the print dialog, or the reverse | The **When you print** setting | The print dialog does not open |
-| No preview in the product page block | That variant has not been printed yet | Preview missing on the product block |
 
 ### Your sheet or roll is not in the list
 
@@ -88,28 +87,6 @@ The **When you print** setting decides what happens when you print.
 3. Under **When you print**, choose **Open the print dialog** or **Download a PDF**.
 
 The setting saves as soon as you choose it. Your next print follows it.
-
-### Preview missing on the product block
-
-The admin block preview appears after a successful print that saves a preview image.
-
-1. Print at least once for that variant from Label Wizard.
-2. Reload the product or variant page.
-3. If the preview still does not appear, try printing again and check that the print completed successfully.
-
-On multi-variant products, only variants that have been printed appear in the carousel.
-
-<!-- SCREENSHOT: TroubleshootingPrintingAdminBlock.png | Product block after a successful print showing preview | source: admin -->
-
-### Not enough credits
-
-If you see **Insufficient credits**:
-
-1. Check **Remaining Credits** in Settings.
-2. Reduce the number of labels in the run, or
-3. Upgrade / change plan under **Plans**.
-
-See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
 
 ### Contact support
 

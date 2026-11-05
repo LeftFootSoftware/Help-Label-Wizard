@@ -17,7 +17,7 @@ Add a QR code that opens each product's page, or holds another product field, wh
 
 With **Product.URL**, each label's QR code opens that product's page in your store.
 
-![screenshot:QR code panel for Canvas Tote - Natural: Content holds the barcode field, Value 05065023978496, then the Style and Advanced settings](AddingQrCodesSidebar-v2.png)
+![screenshot:QR code panel for Canvas Tote - Natural: Content holds the barcode field, Value 05065023978496, and Style with Foreground and Background](AddingQrCodesSidebar-v3.png)
 
 ### What a QR code can hold
 
