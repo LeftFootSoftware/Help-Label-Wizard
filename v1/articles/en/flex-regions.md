@@ -31,12 +31,16 @@ Names wrap onto extra lines at the spaces. A name that still needs room shrinks,
 
 A **Flex region** is a box divided into slots that share its space, for example name, price and SKU stacked in one area. The ready-made **Hangtag Sticker** design uses one; start from it and change the fields in its slots. See [Start from a ready-made design](/category/designing-labels/design-library).
 
-To add one, choose **Add object**, then **Flex region**. It starts with three slots. In its panel:
+To add one, choose **Add object**, then **Flex region**. It starts with three slots. To fill a slot, select the slot, choose **Add object**, then **Text**. A **Shape** added this way sits loose on the label, not in a slot.
+
+In the region's panel:
 
 - **Stack direction:** **Vertical** stacks the slots; **Horizontal** puts them side by side.
 - **Redistribute:** how the slots share the space.
 - **Padding** and **Gap:** space inside the region and between slots.
 - **Add slot:** adds a slot. Open a slot to set its **Background color**, **Hide when empty** (ticked at first), **Fixed size**, **Move Slot Down** or **Remove slot**.
+
+To close the gap when a field is empty for a product, such as a compare-at price, also tick **Hide when empty** on the text inside the slot. Products with no value then print without that row, and the other slots share the space. Check a product with the field empty in the **Variant** panel.
 
 ### Related articles
 

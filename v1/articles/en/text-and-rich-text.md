@@ -22,7 +22,8 @@ For fields and formulas, see [Show product data on a label](/category/designing-
 - **Font style:** bold, italic, strikethrough, underline and overline.
 - **Horizontal** and **Vertical:** where the text sits inside its box.
 - **Size range:** lets long text shrink to fit. See [Fit long product names on a label](/category/designing-labels/flex-regions).
-- **Rich text:** tick it to format part of the text. A toolbar appears with bold, italic, underline, bullet and numbered lists, alignment, font, size and **Text** colour. Select the words, then choose the format.
+- **Rich text:** tick it to format part of the text. A toolbar appears with bold, italic, underline, bullet and numbered lists, alignment, font, size and **Text** colour. Select the words in the text box, then choose the format. A product field works as one piece, so bold on **@Product.Title** makes the whole title bold.
+- **Edit token:** double-click a product field in the text box to change its **Format**, see a preview, or choose **Remove token**.
 - **Advanced:** **Line height**, **Spacing**, **Stroke**, **Padding**, a shadow **Type** (**None**, **Subtle**, **Medium**, **Strong** or **Very strong**), and exact position, **Rotation**, **Flip X** and **Flip Y**.
 
 ### Add an image
@@ -47,6 +48,8 @@ Use shapes for borders, colour blocks and dividers.
 ### If something goes wrong
 
 - **Typing @ does nothing:** click inside the text box first, then type **@**.
+- **You cannot type on the label itself:** edit text in the text box in the panel, not on the canvas.
+- **You want only part of a product name in bold:** a product field cannot be part bold. Type those words as plain text instead.
 - **A shape or image covers the price or barcode:** select it, choose **Layers**, then **Send to Back**.
 - **Text prints too small to read:** raise **Min** under **Size range**, or make the text box larger.
 

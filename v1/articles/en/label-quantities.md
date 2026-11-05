@@ -41,6 +41,7 @@ See [Change your app settings](/category/sheets-rolls-templates/app-settings). E
 - **A product starts at 0:** it has no stock at the selected location. Type a number, or switch the setting to **1 label per product**.
 - **The counts do not match your stock:** check the **Location** filter. Counts follow the selected location.
 - **The print button is grey:** tick at least one product with a count above 0.
+- **The selected count is higher than the rows you can see:** rows you ticked can stay ticked after a new search, even when the search hides them. Clear the search and untick the ones you do not want.
 
 ### Related articles
 

@@ -25,6 +25,7 @@ The page shows your design's name at the top and a **Products** list with one ro
 
 1. Tick the rows you want to print. To include every product that matches your filters, choose the **Select all** link next to the count (for example **Select all 2+ products**). See [Print labels for every product at once](/category/printing/print-all-products).
 2. Type a number in a row's quantity box, or select rows and choose **Set Quantity** to give them all the same number.
+3. Check the count next to the ticks, for example "2 selected", and the number on the print button. Rows you ticked can stay ticked after a new search, even when the search hides them.
 
 If your **Default print quantity** is **Inventory on hand**, the page says "Quantities match inventory for the selected location, up to 500 per product. You can edit any quantity." See [Set how many labels print](/category/printing/label-quantities).
 
