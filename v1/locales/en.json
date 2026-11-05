@@ -75,7 +75,8 @@
       "updated": "2026-11-05",
       "articles": [
         "troubleshooting-printing",
-        "print-quality-dpi"
+        "print-quality-dpi",
+        "products-without-barcodes"
       ]
     }
   ],
@@ -100,6 +101,7 @@
     "print-all-products": "2026-10-04",
     "print-from-order": "2026-10-04",
     "print-quality-dpi": "2026-10-04",
+    "products-without-barcodes": "2026-11-05",
     "thermal-printers": "2026-10-04",
     "admin-blocks-and-actions": "2026-10-04",
     "sidekick-labels": "2026-10-04",
