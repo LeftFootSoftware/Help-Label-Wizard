@@ -1,42 +1,44 @@
 ## Create a label design
 
-This guide shows how to start a new design from scratch, from a ready-made layout, or from a sheet or roll size.
+Create a new design at your label's exact size, from your sheet or roll, from a ready-made design, or from scratch.
 
-### Ways to start
+### Before you start
 
-From the **Dashboard**, choose **Design a label**, then pick one of:
+- Know your label stock: its part number, such as Avery 5160, or its size. See [Which label stock and printer do I need?](/category/getting-started/choosing-label-stock)
 
-- **Browse ready-made designs** — open the Design gallery and start from a sample
-- **Start from a sheet or roll** — match a manufacturer template (search like `Avery 5160` or `4x6`)
-- **Start from scratch** — choose shape and size yourself
+### Choose how to start
 
-You can also open **Sheets and rolls** and choose **Design a label** on a template row.
-
-![screenshot:Design a label chooser with ready-made, sheet, and scratch options](CreateLabelDesignChooser.png)
+- **From your sheet or roll:** the surest way to match your stock. Open **Sheets and rolls**, find your part number and choose **Design a label** on its row. See [Find your label sheet or roll (Avery, Online Labels, Dymo, Uline)](/category/sheets-rolls-templates/sheets-and-rolls).
+- **From a ready-made design:** copy a finished layout. See [Start from a ready-made design](/category/designing-labels/design-library).
+- **From scratch:** choose a shape and size yourself, as below.
 
 ### Start from scratch
 
-1. Choose **Start from scratch**.
-2. Select a **shape** (rectangle or circle).
-3. Choose a **size**:
-   - **Sheet or roll size** — pick from the catalog
-   - **Custom size** — enter length/height (or diameter for circles) in your preferred unit
-4. Confirm to open the editor.
+1. On the **Dashboard**, choose **Design a label**, then **Start from scratch**.
+2. Type a **Design name** and choose **Next**.
+3. In **Select Shape**, choose **Rectangle** or **Circle**, then **Next**.
+4. Choose the size:
+   - **Sheet or roll size:** pick a size from the list. Narrow it with **Length** and **Height**, and switch units with **mm**, **cm** or **in**.
+   - **Custom size:** type the **Length** and **Height**. Custom sizes go up to 12.00 x 17.00 in.
+5. Choose **Create**.
 
-### Portrait and landscape
+The design opens in the editor at the size you chose.
 
-In the editor you can switch orientation when your label size allows it (for example **Switch to portrait** / **Switch to landscape**). Orientation changes how content fits the printable area; it does not change your physical stock size.
+![screenshot:Create new design size step: Sheet or roll size tab, unit buttons, size search, Length and Height filters, and a list of sizes starting at 0.47 x 0.47 in, with Back, Cancel and Create](CreateDesignSizeStep-v2.png)
 
-### Save your design
+### Save and find your design
 
-1. Give the design a clear name.
-2. Choose **Save**.
-3. Find it later under **My designs** / **Your designs** on the Dashboard.
+- Choose **Save** in the **Unsaved changes** bar after your first changes.
+- Your saved designs are in **My designs**. From a design's card menu you can **Rename design**, **Duplicate design** or **Delete design**.
+- To turn the label on its side, open **Canvas** in the editor toolbar and choose **Switch to portrait**.
 
-Unsaved work may show as **Draft (Unsaved)**. Leave the editor carefully if you have unsaved changes.
+### If something goes wrong
+
+- **Next or Create stays grey:** fill in the step first: a name, then a shape, then a size.
+- **Your size is not in the list:** use the **Custom size** tab, or add your stock. See [Add a label size that isn't listed](/category/sheets-rolls-templates/custom-label-template).
+- **A size search finds nothing:** clear it and narrow the list with **Length** and **Height** instead.
 
 ### Related articles
 
-- [Find your way around the label editor](/category/designing-labels/label-editor-basics)
 - [Find your label sheet or roll (Avery, Online Labels, Dymo, Uline)](/category/sheets-rolls-templates/sheets-and-rolls)
-- [Start from a ready-made design](/category/designing-labels/design-library)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
