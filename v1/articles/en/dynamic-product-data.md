@@ -32,7 +32,7 @@ The list has no field for vendor, product type, weight, inventory quantity, cost
 ### Fields in barcodes, QR codes and images
 
 - **Barcode:** choose the source in **Field**: **Barcode**, **SKU** or **Static text**. See [Add a barcode](/category/designing-labels/adding-barcodes).
-- **QR code:** under **Content**, choose **Attribute** and pick a field, for example **Product.URL**.
+- **QR code:** in **Content**, remove the **barcode** field, then choose **Attribute** and pick a field, for example **Product.URL**. See [Add a QR code](/category/designing-labels/adding-qr-codes).
 - **Image:** in **Image type**, choose **Product image** or **Variant image** to show each product's picture, or **Custom** for your own file.
 
 ### If something goes wrong

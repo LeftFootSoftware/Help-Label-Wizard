@@ -14,7 +14,7 @@ Print the same number of labels for every product that matches your filters, acr
 3. Tick one product, then choose **Select all**, for example **Select all 2+ products**. The page says "All 2+ products are selected".
 4. Choose **Print All**.
 5. In **Print All Filtered Products**, type the **Quantity for all products**, then choose **Print All**.
-6. Choose your sheet or roll and print, as for any print. See [Print barcode labels for your products and variants](/category/printing/printing-labels).
+6. In **Select a sheet or roll to print**, choose your sheet or roll, then choose **Print**. See [Print barcode labels for your products and variants](/category/printing/printing-labels).
 
 ![screenshot:Print All Filtered Products dialog: "You have selected all filtered products (2 total products). This will print labels for all products matching your current filters across all pages.", Quantity for all products 1, Cancel and Print All](PrintAllFilteredDialog-v2.png)
 
@@ -22,7 +22,7 @@ Print the same number of labels for every product that matches your filters, acr
 
 Every product in the filtered list gets the same quantity, and each variant counts as one product. Two variants at a quantity of 1 print 2 labels. The **Label Count** column hides while all products are selected, so counts you typed on single rows do not apply.
 
-Each label uses one credit, so check the total before you choose **Print All**.
+Each label uses one credit, so work out the total before you choose **Print All**: the number of products in the dialog times your quantity. The **Select a sheet or roll to print** window does not show a label count.
 
 ### If something goes wrong
 
