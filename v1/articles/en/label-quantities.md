@@ -1,37 +1,48 @@
 ## Set how many labels print
 
-This guide explains how quantities work on Print labels: per-row edits, **Set Quantity**, inventory-based defaults, and the shop-wide default quantity setting.
+Set each product's label count on the **Print labels** page, one row at a time or many at once. **Settings** decides the number each row starts at.
 
-### Edit a single quantity
+### Before you start
 
-In the Products table, change the quantity field on a row. That value is how many labels print for that product or variant in the next run.
+- A saved design, opened for printing. See [Print barcode labels for your products and variants](/category/printing/printing-labels).
 
-![screenshot:Products table with quantity field set on a selected row](LabelQuantitiesRowEdit.png)
+### Set one product's count
 
-### Set Quantity for many products
+Type a number in the product's **Label Count** box. That many labels print for that product or variant.
 
-1. Select one or more rows (or Select all).
+![screenshot:Print labels page for the Canvas Tote label design with two Canvas Tote variants selected, Natural and Black, each set to 1 label, and the Set Quantity and Print 2 labels buttons](PrintingLabelsPage-v2.png)
+
+### Set the same count for many products
+
+1. Tick the products.
 2. Choose **Set Quantity**.
-3. Enter the quantity.
-4. Apply to the selected products, or use the options offered for filtered/all products when Select all is active.
+3. Type the number in **Quantity**.
+4. Choose **Apply to Selected Only** for the ticked products, or **Apply to All** for every product in the list.
 
-### Default print quantity (Settings)
+### Print every product in the list
 
-In **Settings**, **Default print quantity** controls the starting quantity when you open Print labels:
+1. Tick one product, then choose the **Select all** button, for example **Select all 2+ products**. The page says, for example, "All 2+ products are selected", and the **Label Count** column hides.
+2. Choose **Print All**.
+3. In **Print All Filtered Products**, type the **Quantity for all products**, then choose **Print All**.
 
-- **1 label per product** — starts at 1
-- **Inventory on hand** — starts from inventory for the selected location (the app may cap the suggested default per SKU; you can still type a higher number)
+This prints every product that matches your filters, across all pages. See [Print labels for every product at once](/category/printing/print-all-products).
 
-Help text in Settings: you can change quantities on Print labels at any time.
+### Where the starting number comes from
 
-![screenshot:Settings Default print quantity options](LabelQuantitiesSettingsDefault.png)
+In **Settings**, **When opening Print labels** sets it:
 
-### Inventory and locations
+- **Inventory on hand:** each row starts at its stock count. The page says "Quantities match inventory for the selected location, up to 500 per product. You can edit any quantity." Pick the location in the **Location** filter, or keep **All locations**.
+- **1 label per product:** each row starts at 1.
 
-When quantities follow inventory, pick the right **Location** filter first. Quantities match inventory for that location. Order-based printing uses ordered line quantities instead — see [Print labels for an order](/category/printing/print-from-order).
+See [Change your app settings](/category/sheets-rolls-templates/app-settings). Each printed label uses one credit. See [How do plans and label credits work?](/category/getting-started/plans-and-credits)
+
+### If something goes wrong
+
+- **A product starts at 0:** it has no stock at the selected location. Type a number, or switch the setting to **1 label per product**.
+- **The counts do not match your stock:** check the **Location** filter. Counts follow the selected location.
+- **The print button is grey:** tick at least one product with a count above 0.
 
 ### Related articles
 
-- [Print barcode labels for your products and variants](/category/printing/printing-labels)
-- [Print labels for every product at once](/category/printing/print-all-products)
+- [How do plans and label credits work?](/category/getting-started/plans-and-credits)
 - [Change your app settings](/category/sheets-rolls-templates/app-settings)
