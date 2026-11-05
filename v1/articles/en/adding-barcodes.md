@@ -1,48 +1,56 @@
 ## Add a barcode
 
-This guide covers barcode objects, supported formats, linking to product barcode or SKU, and sizing so codes scan reliably.
+Add a barcode that prints each variant's own barcode or SKU, so every label scans as the right product.
 
-### Add a barcode
+### Before you start
 
-1. Open your design in the editor.
-2. Add a **Barcode** object.
-3. Select it to open barcode settings in the sidebar.
+- A saved design. See [Create a label design](/category/designing-labels/create-label-design).
+- A barcode or SKU on your variants in Shopify. Label Wizard prints the value you have; it does not check that the number is valid.
 
-![screenshot:Barcode selected with format and field options in the sidebar](AddingBarcodesSidebar.png)
+### Add the barcode
 
-### Supported formats
+1. Open the design and choose **Add object**, then **Barcode**.
+2. Select the barcode on the canvas. The **Barcode** panel opens.
+3. In **Field**, choose **Barcode** to print each variant's barcode, or **SKU** to print its SKU.
+4. Leave **Format** at **Automatic**, unless a retailer asks for a specific symbol.
+5. Drag the corner handles to make the barcode as wide as the label allows.
+6. In the **Variant** panel, check a few products.
+7. Choose **Save** in the **Unsaved changes** bar.
 
-Label Wizard barcode formats include:
+**Value** shows the code for the product in the **Variant** panel, and the canvas draws its bars and digits.
 
-- **Automatic** — picks a format from the data when possible
-- **EAN-13**
-- **UPC**
-- **GTIN-14**
-- **GS1-128**
-- **Code 128**
+![screenshot:Barcode panel for Canvas Tote - Natural: Field Barcode, Value 05065023978496, Format Automatic, Bar height 50, and the Style settings below](AddingBarcodesSidebar-v2.png)
 
-Choose the format your retailers or scanners expect. If you are unsure, start with **Automatic** and verify with a scanner.
+### Choose where the code comes from
 
-### Link to product data
+- **Barcode:** the variant's barcode in Shopify. If a variant has more than one, the first one prints; there is no setting to pick another.
+- **SKU:** the variant's SKU. Set **Format** to **Code 128**, which takes letters, digits and dashes.
+- **Static text:** the same code on every label. Type it in the **Static text** box.
 
-Common field presets:
+**Field** has no option for metafields. A code kept in a metafield, such as an FNSKU, prints only as text. To print it as bars, store it in the variant's barcode or SKU.
 
-- **Barcode** — the product/variant barcode from Shopify
-- **SKU** — the variant SKU
-- **Static text** — a fixed value you type
+### Choose a format
 
-You can also use expressions for more advanced cases. See [Format values with formulas](/category/designing-labels/formulas-and-expressions).
+**Format** offers **Automatic**, **EAN-13**, **UPC**, **GTIN-14**, **GS1-128** and **Code 128**.
 
-### Size the barcode to scan
+**Automatic** picks the symbol from the value. A 14-digit value such as 05065023978496, or an 8-digit value such as 12345678, prints as Code 128. If a retailer or marketplace asks for a specific symbol, choose it in **Format** and print a test label.
 
-- Keep quiet space (clear margin) around the bars.
-- Avoid shrinking barcodes until the bars blur at print DPI.
-- Prefer printing barcodes at **203 DPI** on thermal printers or **300 DPI** on laser, then test with your scanner.
+### Change how the barcode looks
 
-See [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi).
+- **Bar height:** how tall the bars are.
+- **Text placement:** the digits above the bars, below them, or hidden (the cross).
+- **Font size** and **Text margin:** the size of the digits and the gap between them and the bars.
+- **Line color** and **Background:** keep black bars on a white or clear background so scanners read them.
+
+### If something goes wrong
+
+- **The editor shows a faint grey barcode:** the product in the **Variant** panel has no value in the chosen field. Its label prints with that space empty. Add the barcode or SKU in Shopify.
+- **Many of your products have no barcode:** see [My products have no barcodes: what now?](/category/account-troubleshooting/products-without-barcodes)
+- **The wrong one of two barcodes prints:** Label Wizard prints the variant's first barcode.
+- **The barcode does not scan:** make it wider, keep clear space on both sides, and print one test label. See [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi).
 
 ### Related articles
 
-- [Add a QR code](/category/designing-labels/adding-qr-codes)
-- [Show product data on a label](/category/designing-labels/dynamic-product-data)
-- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi)
+- [My products have no barcodes: what now?](/category/account-troubleshooting/products-without-barcodes)
