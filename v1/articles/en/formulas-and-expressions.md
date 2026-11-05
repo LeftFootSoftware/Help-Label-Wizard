@@ -4,7 +4,7 @@ A formula changes how a product field prints, for example a price with its dolla
 
 ### Before you start
 
-- A text element on your design. See [Add and format text](/category/designing-labels/text-and-rich-text).
+- A text element on your design. See [Add text, images and shapes](/category/designing-labels/text-and-rich-text).
 - The field you want to format. See [Show product data on a label](/category/designing-labels/dynamic-product-data).
 
 ### Insert a formula

@@ -40,7 +40,7 @@ The list has no field for vendor, product type, weight, inventory quantity, cost
 - **Your metafield is not in the list:** the list shows a metafield only when the product chosen in the **Variant** panel has a value for it. Choose a product that has one.
 - **Typing @ does nothing:** click inside the text box first, then type **@**.
 - **A field prints blank for some products:** those products have no value in Shopify. Fill it in, or tick **Hide when empty** to drop the line.
-- **The editor shows a grey barcode or picture that does not print:** that is a placeholder for a product with no barcode or no image. The printed label leaves the space empty.
+- **The editor shows a faint grey barcode that does not print:** that is a placeholder for a product with no barcode. The printed label leaves the space empty.
 - **A price prints without a dollar sign:** see [Print price and sale tags](/category/designing-labels/print-price-sale-tags).
 
 ### Related articles
