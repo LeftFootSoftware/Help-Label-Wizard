@@ -1,38 +1,45 @@
-## Finding your label sheet in Sheets & Rolls
+## Find your label sheet or roll (Avery, Online Labels, Dymo, Uline)
 
-This guide shows how to browse **Sheets and rolls**, filter by manufacturer, size, and shape, and start a design from a template.
+Find the sheet or roll you print on in Label Wizard's list of more than 400 sizes, and start a design that fits it exactly.
 
-### Open Sheets and rolls
+### Before you start
 
-In Label Wizard navigation, open **Sheets and rolls**. You will see a list of templates with dimensions and layout (sheet vs continuous).
+- Your label stock's pack, with its part number (for example Avery 5160 or Dymo 30334) or its label size.
 
-![screenshot:Sheets and rolls table with filters and search](SheetsAndRollsList.png)
+### Find your stock
 
-### Search and filters
+1. In the sidebar, open **Sheets and rolls**.
+2. In **Search sheets and rolls**, type the part number on your pack, for example **5160**.
+3. Check the matching row: **Label size**, **Layout** (rows x columns, and labels per sheet) and **Paper size**.
 
-- Use search for product codes or sizes (for example `Avery 5160`, `Uline`, or `4x6`).
-- Filter by **Size** and **Shape** when available.
-- Clear filters when you want the full catalog again.
+One row often lists several part numbers that share the same size. Avery 5160, for example, shares its row with dozens of other Avery, Online Labels and Uline numbers.
 
-Manufacturers you may see include **Online Labels**, **Avery**, **Custom**, **Plain paper**, and **Continuous Feed**.
+![screenshot:Sheets and rolls page searched for 5160, showing one row where Avery 5160 shares its size with many Avery, Online Labels and Uline part numbers](SheetsAndRollsSearch-v2.png)
 
-### Start a design from a template
+### Narrow the list
 
-1. Find the row that matches your physical stock.
-2. Choose **Design a label** (or the equivalent action on that row).
-3. Edit the design, then save.
+- **Manufacturer:** choose **Avery**, **Dymo**, **Online Labels**, **Uline** or **Custom** (sizes you added yourself).
+- **Add filter:** choose **Shape** (**Rectangle** or **Circle**) or **Paper size** (**Letter**, **Legal**, **Tabloid**, **A4** or **Continuous Feed** for rolls).
+- **mm**, **cm**, **in:** switch the units the list shows.
 
-Matching the template to your stock is the easiest way to keep print alignment correct.
+Choose **Clear** in a filter to remove it.
 
-### Duplicate or customize
+### Start a design on that stock
 
-- Use **Duplicate** when you want a copy of a catalog template to tweak.
-- Use **Add custom** when your stock is not in the list. See [Creating a custom sheet or roll template](/category/sheets-rolls-templates/custom-label-template).
+1. On the row, choose **Design a label**.
+2. In **Design name**, type a name, for example "Shelf label".
+3. Choose **Create**.
 
-![screenshot:Template rows with the Design a label and Duplicate actions](SheetsAndRollsDesignAction.png)
+The label editor opens at that stock's label size. When you print this design, Label Wizard offers this stock in **Select a sheet or roll to print**.
+
+### If something goes wrong
+
+- **Searching a size such as 4x6 finds nothing:** search by the part number on the pack instead.
+- **Your part number finds nothing:** try another number printed on the pack. If none match, add the size yourself. See [Add a label size that isn't listed](/category/sheets-rolls-templates/custom-label-template).
+- **A filter hides rows you expect:** choose **Clear** in each filter, or remove its chip.
 
 ### Related articles
 
-- [Choosing your label stock](/category/getting-started/choosing-label-stock)
-- [Creating a custom sheet or roll template](/category/sheets-rolls-templates/custom-label-template)
+- [Choosing your label stock: sheets, rolls and continuous feed](/category/getting-started/choosing-label-stock)
 - [Creating a new label design](/category/designing-labels/create-label-design)
+- [Printing labels for your products](/category/printing/printing-labels)
