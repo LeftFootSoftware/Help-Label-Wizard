@@ -1,46 +1,34 @@
 ## Print labels from a product page
 
-This guide covers the Label Wizard admin block, the label preview carousel, choosing a design, Edit and Print, and More actions entries.
+Print labels for one product, or one variant, straight from its page in your Shopify admin.
 
-### Add the Label Wizard block
+### Before you start
 
-1. Open a **product** or **variant** page in Shopify admin.
-2. In the **Blocks** section, choose **Add block**.
-3. Add **Label Wizard**.
+- A saved design. See [Create a label design](/category/designing-labels/create-label-design).
 
-There is a product block and a variant block. Use the one that matches the page you are on.
+### Print from a product or variant page
 
-<!-- SCREENSHOT: AdminBlocksAddBlock.png | Product page Blocks section Add block menu showing Label Wizard | source: admin -->
+1. In your Shopify admin, open **Products** and open the product. For one variant, open that variant's page.
+2. Choose **More actions**, then **Print labels**.
+3. In **Print labels**, check the **Design**. It starts at the design you used last.
+4. Choose **Print labels**, then set quantities, choose your sheet or roll and print, as for any print. See [Print barcode labels for your products and variants](/category/printing/printing-labels).
 
-### What the block shows
+![screenshot:Print labels dialog on a product page with Design set to Product barcode label, Close and Print labels](ProductPagePrintModal-v2.png)
 
-- If nothing has been printed yet for a multi-variant product, the product block may stay hidden until at least one variant has been printed.
-- For a single-variant product with no print yet, you can still pick a design and use **Edit** / **Print**.
-- After you print, a **preview image** of the last printed label appears.
+### Other Label Wizard items on the page
 
-<!-- SCREENSHOT: AdminBlocksPrintedPreview.png | Label Wizard block with label preview, design picker, Edit and Print | source: admin -->
+- **More actions** also has **Edit label design**.
+- **+ Block** in the page's **Blocks** section offers **View design (product)** on a product page and **View design** on a variant page.
 
-### Product block carousel
+**More actions** also lists items from other apps, such as **Create barcodes** and **Print barcode labels** (Shopify's Retail Barcode Labels) and **Assign GTIN/EAN/UPC** (GS1 Assistant). The order of the items can change, so look for the name.
 
-On a product with several printed variants, the block can show previous/next controls (for example `Ice · 1 of 3`). Only variants that have been printed appear in the carousel. Use the arrows to move between them.
+### If something goes wrong
 
-### Choose a design
-
-The **Design** dropdown lists your saved designs. Edit and Print use the design you select. If you pick a different design than the one in the preview image, the preview hides until you select the last-printed design again (or print with the new design).
-
-### Edit and Print
-
-- **Edit** opens the design in Label Wizard’s editor.
-- **Print** opens **Print labels** filtered to that product or variant.
-
-![screenshot:Print labels opened from the block, filtered to one product](AdminBlocksPrintFiltered.png)
-
-### More actions
-
-Label Wizard also provides admin actions (for example print or edit flows) from product and variant **More actions** menus. Use those when you want to jump straight into printing or editing without the block.
+- **Print labels is not in More actions:** scroll the menu; the order of the items changes. If it is missing, open Label Wizard from **Apps** and print from there.
+- **Edit label design keeps loading:** close it and open the design from **My designs** in Label Wizard instead.
+- **The design you want is not listed:** only saved designs show. Save it in Label Wizard first.
 
 ### Related articles
 
 - [Print barcode labels for your products and variants](/category/printing/printing-labels)
 - [Create a label design](/category/designing-labels/create-label-design)
-- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)
