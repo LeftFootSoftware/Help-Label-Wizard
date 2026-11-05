@@ -1,6 +1,6 @@
 ## Format values with formulas
 
-A formula changes how a product field prints, for example a price with its dollar sign. Insert the formula from the list, then insert the field inside it with **@**.
+A formula changes how a product field prints, for example a price with a dollar sign. Insert the formula from the list, then insert the field inside it with **@**.
 
 ### Before you start
 
