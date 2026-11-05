@@ -1,42 +1,43 @@
 ## Format values with formulas
 
-This guide covers combining fields, formatting values, using related product data, and what to do when a formula shows an error.
+A formula changes how a product field prints, for example a price with its dollar sign. Insert the formula from the list, then insert the field inside it with **@**.
 
-### When to use a formula
+### Before you start
 
-Use a formula when a single field is not enough, for example:
+- A text element on your design. See [Add and format text](/category/designing-labels/text-and-rich-text).
+- The field you want to format. See [Show product data on a label](/category/designing-labels/dynamic-product-data).
 
-- Combining title and option values into one line
-- Formatting a price or other number
-- Pulling a value through a product reference
-- Showing a value from a related group of variants
+### Insert a formula
 
-Start with simple field insertion first. See [Show product data on a label](/category/designing-labels/dynamic-product-data). Switch to **Formula** mode in the token editor when you need more control.
+1. Select the text element and click inside its text box.
+2. Choose **Formula**, or type **$**. The list of formulas opens.
+3. Choose a formula, for example **$MONEY()**.
+4. With the cursor between the brackets, type **@** and choose the field, for example **Variant.Price**.
+5. In the **Variant** panel, choose a product and check the preview.
 
-![screenshot:Token / formula editor open on a text field](FormulasAndExpressionsEditor.png)
+The text box shows the formula with the field highlighted inside it. The canvas shows the result, for example **$32.00**.
 
-### Editing a formula
+![screenshot:Text panel with $ typed in the text box and the formula list open, starting with $COALESCE(), $IF(), $UPPER() and $LOWER()](FormulasFunctionList-v2.png)
 
-1. Select the object that should show the value.
-2. Open the field editor and switch to **Formula** when available.
-3. Build the expression with the helpers and fields offered in the UI.
-4. Apply the change and preview with a real variant.
+### Add words around a formula
 
-### Errors vs empty data
+Type words before or after the formula in the same text box. They print with the result. For example, **Sale:** followed by **$MONEY(@Variant.Price)** prints "Sale: $785.95".
 
-Label Wizard treats these differently:
+To hide the whole line when the field is empty, tick **Hide when empty**. See [Print price and sale tags](/category/designing-labels/print-price-sale-tags).
 
-- **Empty data** — the product simply has no value; the label may show a blank. That can be correct.
-- **Broken formula** — the expression itself is invalid. The editor should show an error you can fix. Do not ignore formula errors and assume the print will look fine.
+### Formulas in the list
 
-If something looks wrong, fix the formula or the product data, then preview again before printing.
+The list holds: **$COALESCE()**, **$IF()**, **$UPPER()**, **$LOWER()**, **$TITLE()**, **$TRIM()**, **$LEFT()**, **$MID()**, **$TRUNCATE()**, **$ADD()**, **$NUMBER()**, **$ROUND()**, **$MONEY()**, **$DATE()**, **$TODAY()** and **$DATEADD()**.
 
-### Related product and group data
+**$MONEY()** formats a number as a price with a dollar sign, a thousands comma and two decimals: 2629.95 prints as "$2,629.95".
 
-Advanced designs can reference related products or values across variants (for example matching variants in a group). Keep these expressions as simple as you can, and always preview several products.
+### If something goes wrong
+
+- **A red message says "Disallowed expression node: MemberExpression. It will print blank.":** the field name inside the formula was typed by hand. Delete it, type **@** and choose the field from the list.
+- **The label prints the words "Variant.Price":** the field name was typed as plain text, outside a formula and without **@**. Delete it and insert the field with **@**.
+- **The result is blank for some products:** those products have no value in that field. That is expected; tick **Hide when empty** if the line should disappear.
 
 ### Related articles
 
-- [Show product data on a label](/category/designing-labels/dynamic-product-data)
-- [Fit long product names on a label](/category/designing-labels/flex-regions)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
 - [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)
