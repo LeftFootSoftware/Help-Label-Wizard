@@ -1,32 +1,29 @@
 ## Print labels for an order
 
-This guide explains how to print labels from a Shopify order and how ordered quantities are used.
+Print labels for the products in one Shopify order, with each product's label count set to the quantity ordered.
 
-### Open Print labels from an order
+### Before you start
 
-1. Open an order in Shopify admin.
-2. Use the Label Wizard / **Print labels** action from the order’s **More actions** (or equivalent admin action provided by the app).
-3. Label Wizard opens **Print labels** scoped to that order’s line items.
+- A saved design. See [Create a label design](/category/designing-labels/create-label-design).
 
-<!-- SCREENSHOT: PrintFromOrderAdminAction.png | Order page More actions menu with Print labels | source: admin -->
+### Print from the order
 
-### Quantities from the order
+1. In your Shopify admin, open **Orders** and open the order.
+2. Choose **More actions**. Under **Apps**, choose **Print labels**.
+3. In **Print labels for order**, choose the **Design**, then choose **Print labels**.
+4. The **Print labels** page opens in a new browser tab, showing **Order** with the order number, and one row for each product in the order.
+5. Tick the products to print. Each row's **Label Count** starts at the quantity ordered; change it if you need to.
+6. Choose the print button, then your sheet or roll, as for any print. See [Print barcode labels for your products and variants](/category/printing/printing-labels).
 
-For order printing, quantities follow **line item quantities** on the order. You do not need the inventory-based default quantity setting for this path, and the “one quantity for every product” Print All step is skipped.
+![screenshot:Print labels for order dialog: "Choose which saved design to use, then open the print page for this order's products.", Design set to Product barcode label, Close and Print labels](PrintFromOrderModal-v2.png)
 
-You can still review the Products table before confirming the print.
+### If something goes wrong
 
-<!-- SCREENSHOT: PrintFromOrderProductsTable.png | Print labels opened from an order showing line items and quantities | source: harness -->
-
-### Choose stock and print
-
-1. Confirm the design you want to print.
-2. Choose **Print**.
-3. Select your sheet or roll and DPI as usual.
-4. Review the preview, then print.
+- **The print button is grey:** the rows start unticked. Tick the products you want.
+- **Nothing seems to open:** the print page opens in a new browser tab. Look for it, and allow pop-ups for Shopify admin if your browser blocked it.
+- **The design you want is not in the list:** only saved designs show. Open it in Label Wizard and choose **Save** first.
 
 ### Related articles
 
 - [Print barcode labels for your products and variants](/category/printing/printing-labels)
-- [Set how many labels print](/category/printing/label-quantities)
-- [Print labels from a product page](/category/printing/admin-blocks-and-actions)
+- [Create a label design](/category/designing-labels/create-label-design)
