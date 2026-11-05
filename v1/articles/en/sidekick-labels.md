@@ -1,39 +1,20 @@
 ## Design a label with Shopify Sidekick
 
-This guide explains how Shopify Sidekick relates to Label Wizard designs, and what to use today while Sidekick label tools finish rolling out.
+Label Wizard designs cannot be created through Shopify Sidekick yet. Create and edit them in the Label Wizard editor, as below.
 
-### Current availability
+### What to use today
 
-Label Wizard is building Sidekick tools so merchants can ask Sidekick to draft or update a label design. That Sidekick admin experience depends on Shopify supporting Label Wizard’s Sidekick intent in your shop.
+- **Your sheet or roll:** in **Sheets and rolls**, find your part number and choose **Design a label** on its row.
+- **A ready-made design:** in **Design gallery**, choose **Use this design**.
+- **From scratch:** on the **Dashboard**, choose **Design a label**, then **Start from scratch**.
 
-Until the Sidekick action is enabled for your store, create and edit designs from Label Wizard itself:
+Each route is described in [Create a label design](/category/designing-labels/create-label-design).
 
-- **Dashboard** → **Design a label**
-- **Design gallery** ready-made layouts
-- **Sheets and rolls** → **Design a label**
+### When Sidekick support arrives
 
-![screenshot:Describe my label box on the Design a label page](SidekickLabelsDashboardDesign.png)
-
-### What Sidekick will help with
-
-When available, Sidekick is intended to help you:
-
-- Start a new label design from a short instruction
-- Inspect the current design while the editor is open
-- Apply updates Sidekick proposes
-
-Designs applied this way still need you to **review and Save** in Label Wizard before they are stored for printing.
-
-### Recommended workflow today
-
-1. Create a design from scratch, a sheet, or the Design gallery.
-2. Add product fields, barcodes, and branding in the editor.
-3. Save, then print from **Print labels** or the admin block.
-
-See [Create a label design](/category/designing-labels/create-label-design).
+This article will show the steps once the feature is live in Label Wizard. Until then, the **Design a label** page has no Sidekick box.
 
 ### Related articles
 
-- [Create a label design](/category/designing-labels/create-label-design)
-- [Start from a ready-made design](/category/designing-labels/design-library)
-- [Print labels from a product page](/category/printing/admin-blocks-and-actions)
+- [Start here: print your first label](/category/getting-started/getting-started-with-label-wizard)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
