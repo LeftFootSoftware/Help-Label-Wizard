@@ -38,6 +38,7 @@
       "articles": [
         "create-label-design",
         "design-library",
+        "manage-saved-designs",
         "label-editor-basics",
         "sidekick-labels",
         "text-and-rich-text",
@@ -94,6 +95,7 @@
     "sheets-and-rolls": "2026-11-05",
     "custom-label-template": "2026-11-05",
     "design-library": "2026-11-05",
+    "manage-saved-designs": "2026-11-05",
     "printing-labels": "2026-11-04",
     "label-quantities": "2026-11-05",
     "print-all-products": "2026-11-05",
