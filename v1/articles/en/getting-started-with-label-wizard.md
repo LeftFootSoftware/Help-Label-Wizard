@@ -58,6 +58,6 @@ Label Wizard generates your labels and shows "Successfully Printed N labels from
 
 ### Related articles
 
-- [Printing labels for your products](/category/printing/printing-labels)
-- [Finding your label sheet in Sheets & Rolls](/category/sheets-rolls-templates/sheets-and-rolls)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Find your label sheet or roll (Avery, Online Labels, Dymo, Uline)](/category/sheets-rolls-templates/sheets-and-rolls)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

@@ -1,4 +1,4 @@
-## Getting the best print quality (DPI and printer settings)
+## Get sharp, scannable barcodes
 
 This guide covers print resolution (DPI), browser print settings, and lining up prints with your sheet.
 
@@ -37,6 +37,6 @@ Low DPI or heavy compression can make barcodes hard to scan. Prefer the DPI that
 
 ### Related articles
 
-- [Printing on thermal and continuous-feed printers](/category/printing/thermal-printers)
-- [Choosing your label stock](/category/getting-started/choosing-label-stock)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Set up a thermal or roll printer](/category/sheets-rolls-templates/thermal-printers)
+- [Which label stock and printer do I need?](/category/getting-started/choosing-label-stock)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

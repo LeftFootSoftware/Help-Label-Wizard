@@ -48,6 +48,6 @@ When you print, Label Wizard offers only the sheets and rolls that match your de
 
 ### Related articles
 
-- [Finding your label sheet in Sheets & Rolls](/category/sheets-rolls-templates/sheets-and-rolls)
-- [Printing on thermal and continuous-feed printers](/category/printing/thermal-printers)
-- [Printing on a partly used label sheet](/category/printing/print-partly-used-sheet)
+- [Find your label sheet or roll (Avery, Online Labels, Dymo, Uline)](/category/sheets-rolls-templates/sheets-and-rolls)
+- [Set up a thermal or roll printer](/category/sheets-rolls-templates/thermal-printers)
+- [Print on a partly used label sheet](/category/printing/print-partly-used-sheet)

@@ -1,4 +1,4 @@
-## Flex regions: content that adjusts to fit
+## Fit long product names on a label
 
 This guide explains flex regions — areas on a label where text and other content can grow or shrink inside a fixed frame.
 
@@ -36,6 +36,6 @@ Use a flex region when:
 
 ### Related articles
 
-- [Adding and formatting text](/category/designing-labels/text-and-rich-text)
-- [Showing product data on labels](/category/designing-labels/dynamic-product-data)
-- [Using the label editor](/category/designing-labels/label-editor-basics)
+- [Add and format text](/category/designing-labels/text-and-rich-text)
+- [Show product data on a label](/category/designing-labels/dynamic-product-data)
+- [Find your way around the label editor](/category/designing-labels/label-editor-basics)

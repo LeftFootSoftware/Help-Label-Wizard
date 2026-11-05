@@ -40,6 +40,6 @@ The label editor opens at that stock's label size. When you print this design, L
 
 ### Related articles
 
-- [Choosing your label stock: sheets, rolls and continuous feed](/category/getting-started/choosing-label-stock)
-- [Creating a new label design](/category/designing-labels/create-label-design)
-- [Printing labels for your products](/category/printing/printing-labels)
+- [Which label stock and printer do I need?](/category/getting-started/choosing-label-stock)
+- [Create a label design](/category/designing-labels/create-label-design)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)

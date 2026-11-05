@@ -1,4 +1,4 @@
-## Formulas and advanced fields
+## Format values with formulas
 
 This guide covers combining fields, formatting values, using related product data, and what to do when a formula shows an error.
 
@@ -11,7 +11,7 @@ Use a formula when a single field is not enough, for example:
 - Pulling a value through a product reference
 - Showing a value from a related group of variants
 
-Start with simple field insertion first. See [Showing product data on labels](/category/designing-labels/dynamic-product-data). Switch to **Formula** mode in the token editor when you need more control.
+Start with simple field insertion first. See [Show product data on a label](/category/designing-labels/dynamic-product-data). Switch to **Formula** mode in the token editor when you need more control.
 
 ![screenshot:Token / formula editor open on a text field](FormulasAndExpressionsEditor.png)
 
@@ -37,6 +37,6 @@ Advanced designs can reference related products or values across variants (for e
 
 ### Related articles
 
-- [Showing product data on labels](/category/designing-labels/dynamic-product-data)
-- [Flex regions](/category/designing-labels/flex-regions)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Show product data on a label](/category/designing-labels/dynamic-product-data)
+- [Fit long product names on a label](/category/designing-labels/flex-regions)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

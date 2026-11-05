@@ -1,4 +1,4 @@
-## Adding QR codes
+## Add a QR code
 
 This guide explains how to add a QR code object, link it to a URL or product field, and check that it scans.
 
@@ -32,6 +32,6 @@ Use a **Barcode** for retail UPCs/EANs and warehouse Code 128 style codes. Use a
 
 ### Related articles
 
-- [Adding barcodes](/category/designing-labels/adding-barcodes)
-- [Showing product data on labels](/category/designing-labels/dynamic-product-data)
-- [Getting the best print quality](/category/printing/print-quality-dpi)
+- [Add a barcode](/category/designing-labels/adding-barcodes)
+- [Show product data on a label](/category/designing-labels/dynamic-product-data)
+- [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi)

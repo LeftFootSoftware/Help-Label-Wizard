@@ -72,6 +72,6 @@ While you design or print, the top of the page shows **Remaining Credits**.
 
 ### Related articles
 
-- [Printing labels for your products](/category/printing/printing-labels)
-- [Settings: language, units, default manufacturer and preferences](/category/account-troubleshooting/app-settings)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Change your app settings](/category/sheets-rolls-templates/app-settings)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

@@ -1,4 +1,4 @@
-## Using the label editor
+## Find your way around the label editor
 
 This guide covers the label editor layout: toolbar, sidebar, zoom, alignment, clipboard, undo, and saving.
 
@@ -49,6 +49,6 @@ Zoom in to fine-tune barcodes and small text. Zoom out to see the full label. Us
 
 ### Related articles
 
-- [Creating a new label design](/category/designing-labels/create-label-design)
-- [Adding and formatting text](/category/designing-labels/text-and-rich-text)
-- [Showing product data on labels](/category/designing-labels/dynamic-product-data)
+- [Create a label design](/category/designing-labels/create-label-design)
+- [Add and format text](/category/designing-labels/text-and-rich-text)
+- [Show product data on a label](/category/designing-labels/dynamic-product-data)

@@ -1,4 +1,4 @@
-## Adding barcodes
+## Add a barcode
 
 This guide covers barcode objects, supported formats, linking to product barcode or SKU, and sizing so codes scan reliably.
 
@@ -31,7 +31,7 @@ Common field presets:
 - **SKU** — the variant SKU
 - **Static text** — a fixed value you type
 
-You can also use expressions for more advanced cases. See [Formulas and advanced fields](/category/designing-labels/formulas-and-expressions).
+You can also use expressions for more advanced cases. See [Format values with formulas](/category/designing-labels/formulas-and-expressions).
 
 ### Size the barcode to scan
 
@@ -39,10 +39,10 @@ You can also use expressions for more advanced cases. See [Formulas and advanced
 - Avoid shrinking barcodes until the bars blur at print DPI.
 - Prefer printing barcodes at **203 DPI** on thermal printers or **300 DPI** on laser, then test with your scanner.
 
-See [Getting the best print quality](/category/printing/print-quality-dpi).
+See [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi).
 
 ### Related articles
 
-- [Adding QR codes](/category/designing-labels/adding-qr-codes)
-- [Showing product data on labels](/category/designing-labels/dynamic-product-data)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Add a QR code](/category/designing-labels/adding-qr-codes)
+- [Show product data on a label](/category/designing-labels/dynamic-product-data)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

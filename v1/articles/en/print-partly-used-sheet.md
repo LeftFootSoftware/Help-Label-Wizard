@@ -1,11 +1,11 @@
-## Printing on a partly used label sheet
+## Print on a partly used label sheet
 
 Use up a label sheet you already printed on: mark the positions that are gone, and Label Wizard prints only onto the free ones.
 
 ### Before you start
 
 - A label sheet with some positions already used, and the same sheet chosen for your design.
-- Products selected on **Print labels**. See [Printing labels for your products](/category/printing/printing-labels).
+- Products selected on **Print labels**. See [Print barcode labels for your products and variants](/category/printing/printing-labels).
 
 ### Skip the used positions
 
@@ -31,11 +31,11 @@ Choose **Clear** next to the counter. Every position is free again.
 ### If something goes wrong
 
 - **Labels land on used positions:** check the counter before you print, and that the sheet faces the same way as in your last run.
-- **Labels are shifted on the sheet:** set scale to 100% and margins to None in the print dialog. See [Getting the best print quality](/category/printing/print-quality-dpi).
-- **Your sheet is not in the list:** its size does not match the design. See [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing).
+- **Labels are shifted on the sheet:** set scale to 100% and margins to None in the print dialog. See [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing).
+- **Your sheet is not in the list:** its size does not match the design. See [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing).
 
 ### Related articles
 
-- [Printing labels for your products](/category/printing/printing-labels)
-- [Finding your label sheet in Sheets & Rolls](/category/sheets-rolls-templates/sheets-and-rolls)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Which label stock and printer do I need?](/category/getting-started/choosing-label-stock)
+- [Find your label sheet or roll (Avery, Online Labels, Dymo, Uline)](/category/sheets-rolls-templates/sheets-and-rolls)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

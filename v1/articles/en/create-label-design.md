@@ -1,4 +1,4 @@
-## Creating a new label design
+## Create a label design
 
 This guide shows how to start a new design from scratch, from a ready-made layout, or from a sheet or roll size.
 
@@ -37,6 +37,6 @@ Unsaved work may show as **Draft (Unsaved)**. Leave the editor carefully if you 
 
 ### Related articles
 
-- [Using the label editor](/category/designing-labels/label-editor-basics)
-- [Finding your label sheet in Sheets & Rolls](/category/sheets-rolls-templates/sheets-and-rolls)
-- [Using the Library of ready-made designs](/category/sheets-rolls-templates/design-library)
+- [Find your way around the label editor](/category/designing-labels/label-editor-basics)
+- [Find your label sheet or roll (Avery, Online Labels, Dymo, Uline)](/category/sheets-rolls-templates/sheets-and-rolls)
+- [Start from a ready-made design](/category/designing-labels/design-library)

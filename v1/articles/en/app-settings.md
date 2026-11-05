@@ -1,4 +1,4 @@
-## Settings: language, units, default manufacturer and preferences
+## Change your app settings
 
 This guide explains the Settings page: language, units, print resolution, default print quantity, and account/billing links.
 
@@ -18,7 +18,7 @@ Use **Language** / **Select language** to change the app UI language for your se
 
 ### Print resolution
 
-**Print resolution** sets the default DPI for printing: **203**, **300**, or **600**. See [Getting the best print quality](/category/printing/print-quality-dpi).
+**Print resolution** sets the default DPI for printing: **203**, **300**, or **600**. See [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi).
 
 ### Default print quantity
 
@@ -27,14 +27,14 @@ Use **Language** / **Select language** to change the app UI language for your se
 - **1 label per product**
 - **Inventory on hand**
 
-You can always change quantities on the Print labels page. See [Setting label quantities](/category/printing/label-quantities).
+You can always change quantities on the Print labels page. See [Set how many labels print](/category/printing/label-quantities).
 
 ### Account and billing
 
-Settings also show account information such as **Remaining Credits** or cycle usage, plus **Change plan** / billing links when applicable. See [Understanding plans and label credits](/category/getting-started/plans-and-credits).
+Settings also show account information such as **Remaining Credits** or cycle usage, plus **Change plan** / billing links when applicable. See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
 
 ### Related articles
 
-- [Getting started with Label Wizard](/category/getting-started/getting-started-with-label-wizard)
-- [Setting label quantities](/category/printing/label-quantities)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Start here: print your first label](/category/getting-started/getting-started-with-label-wizard)
+- [Set how many labels print](/category/printing/label-quantities)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

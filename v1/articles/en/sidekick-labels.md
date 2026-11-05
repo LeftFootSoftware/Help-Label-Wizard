@@ -1,4 +1,4 @@
-## Designing labels with Shopify Sidekick
+## Design a label with Shopify Sidekick
 
 This guide explains how Shopify Sidekick relates to Label Wizard designs, and what to use today while Sidekick label tools finish rolling out.
 
@@ -30,10 +30,10 @@ Designs applied this way still need you to **review and Save** in Label Wizard b
 2. Add product fields, barcodes, and branding in the editor.
 3. Save, then print from **Print labels** or the admin block.
 
-See [Creating a new label design](/category/designing-labels/create-label-design).
+See [Create a label design](/category/designing-labels/create-label-design).
 
 ### Related articles
 
-- [Creating a new label design](/category/designing-labels/create-label-design)
-- [Using the Library of ready-made designs](/category/sheets-rolls-templates/design-library)
-- [Label Wizard on product and variant pages](/category/shopify-admin/admin-blocks-and-actions)
+- [Create a label design](/category/designing-labels/create-label-design)
+- [Start from a ready-made design](/category/designing-labels/design-library)
+- [Print labels from a product page](/category/printing/admin-blocks-and-actions)

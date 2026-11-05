@@ -33,10 +33,10 @@ Your size is saved in **Sheets and rolls** under the manufacturer **Custom**. Ch
 ### If something goes wrong
 
 - **Save size stays grey:** the form is not complete yet. Fill in every field, starting with **Name**.
-- **Labels print shifted on the sheet:** measure the margins and gaps again, then check the scale in your print dialog. See [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing).
+- **Labels print shifted on the sheet:** measure the margins and gaps again, then check the scale in your print dialog. See [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing).
 
 ### Related articles
 
-- [Choosing your label stock: sheets, rolls and continuous feed](/category/getting-started/choosing-label-stock)
-- [Creating a new label design](/category/designing-labels/create-label-design)
-- [Getting the best print quality](/category/printing/print-quality-dpi)
+- [Which label stock and printer do I need?](/category/getting-started/choosing-label-stock)
+- [Create a label design](/category/designing-labels/create-label-design)
+- [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi)

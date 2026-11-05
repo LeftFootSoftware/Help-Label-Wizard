@@ -1,4 +1,4 @@
-## Showing product data on labels
+## Show product data on a label
 
 This guide explains how to insert product fields such as title, price, SKU, variant options, and metafields, and how to preview with a real variant.
 
@@ -36,6 +36,6 @@ If a field has no value for a product, that part of the label can print blank. T
 
 ### Related articles
 
-- [Formulas and advanced fields](/category/designing-labels/formulas-and-expressions)
-- [Adding barcodes](/category/designing-labels/adding-barcodes)
-- [Printing labels for your products](/category/printing/printing-labels)
+- [Format values with formulas](/category/designing-labels/formulas-and-expressions)
+- [Add a barcode](/category/designing-labels/adding-barcodes)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)

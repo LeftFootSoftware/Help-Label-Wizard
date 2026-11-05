@@ -1,4 +1,4 @@
-## Adding images and shapes
+## Add images and shapes
 
 This guide covers logos, product images, and shape objects such as rectangles, circles, lines, and polygons.
 
@@ -39,6 +39,6 @@ Bring important content (barcodes, prices) above decorative shapes. Send backgro
 
 ### Related articles
 
-- [Using the label editor](/category/designing-labels/label-editor-basics)
-- [Showing product data on labels](/category/designing-labels/dynamic-product-data)
-- [Flex regions](/category/designing-labels/flex-regions)
+- [Find your way around the label editor](/category/designing-labels/label-editor-basics)
+- [Show product data on a label](/category/designing-labels/dynamic-product-data)
+- [Fit long product names on a label](/category/designing-labels/flex-regions)

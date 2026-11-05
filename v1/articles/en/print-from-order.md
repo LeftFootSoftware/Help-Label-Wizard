@@ -1,4 +1,4 @@
-## Printing labels for an order
+## Print labels for an order
 
 This guide explains how to print labels from a Shopify order and how ordered quantities are used.
 
@@ -27,6 +27,6 @@ You can still review the Products table before confirming the print.
 
 ### Related articles
 
-- [Printing labels for your products](/category/printing/printing-labels)
-- [Setting label quantities](/category/printing/label-quantities)
-- [Label Wizard on product and variant pages](/category/shopify-admin/admin-blocks-and-actions)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Set how many labels print](/category/printing/label-quantities)
+- [Print labels from a product page](/category/printing/admin-blocks-and-actions)

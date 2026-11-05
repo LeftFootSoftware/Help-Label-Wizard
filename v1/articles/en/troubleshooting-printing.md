@@ -1,4 +1,4 @@
-## Troubleshooting common printing problems
+## Fix common printing problems
 
 Find the problem you see below, follow its steps, and print again. If nothing here fixes it, contact the Label Wizard team from the Dashboard.
 
@@ -20,7 +20,7 @@ The **Select a sheet or roll to print** window lists only sheets and rolls whose
 1. Read the label size on your stock's packaging.
 2. Open your design and check its size.
 3. If the sizes differ, create a new design at your stock's size. A copy of a design keeps the original size.
-4. If your stock is not in the catalog at all, add it in **Sheets and rolls** with **Add custom**. See [Creating a custom sheet or roll template](/category/sheets-rolls-templates/custom-label-template).
+4. If your stock is not in the catalog at all, add it in **Sheets and rolls** with **Add custom**. See [Add a label size that isn't listed](/category/sheets-rolls-templates/custom-label-template).
 
 Your sheet or roll now appears in the list for that design.
 
@@ -33,7 +33,7 @@ On a sheet you have used before, tell Label Wizard which positions are gone befo
 3. Check the counter, for example **2 positions skipped on the first sheet**.
 4. Print.
 
-The used positions stay blank, and labels start at the first free position. Choose **Clear** to undo the skipped positions. Skipping applies to the first sheet of the run only. See [Printing on a partly used label sheet](/category/printing/print-partly-used-sheet).
+The used positions stay blank, and labels start at the first free position. Choose **Clear** to undo the skipped positions. Skipping applies to the first sheet of the run only. See [Print on a partly used label sheet](/category/printing/print-partly-used-sheet).
 
 ### Labels are misaligned on the sheet
 
@@ -42,7 +42,7 @@ The used positions stay blank, and labels start at the first free position. Choo
 3. Load the sheet according to your printer tray guides.
 4. Print one test page on plain paper, hold it against a label sheet, and check the fit before a large run.
 
-If you download a PDF instead of using the print dialog, set the same scale and margins in the program you print the PDF from. See [Getting the best print quality](/category/printing/print-quality-dpi).
+If you download a PDF instead of using the print dialog, set the same scale and margins in the program you print the PDF from. See [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi).
 
 ### A label prints without its barcode
 
@@ -64,11 +64,11 @@ Label Wizard prints the barcodes your products already have. It does not create 
 4. Avoid stretching barcodes unevenly.
 5. Print a sample and test it with your scanner.
 
-See [Adding barcodes](/category/designing-labels/adding-barcodes).
+See [Add a barcode](/category/designing-labels/adding-barcodes).
 
 ### A price or formula prints blank
 
-A product field that is typed by hand cannot be read. The editor shows a red message such as:
+A product field typed by hand is not read as product data. Typed as plain text, it prints the words themselves, for example "Variant.Price". Typed inside a formula, the editor shows a red message such as:
 
 > Formula $MONEY(Variant.Price) cannot be evaluated: Disallowed expression node: MemberExpression. It will print blank.
 
@@ -77,7 +77,7 @@ A product field that is typed by hand cannot be read. The editor shows a red mes
 3. Type **@** and choose the field from the list. It appears as a highlighted field inside the text.
 4. Check the label preview.
 
-The preview now shows the value. Use `$MONEY(@Variant.Price)` rather than the plain price field when you want the price to print with its currency sign. See [Formulas and advanced fields](/category/designing-labels/formulas-and-expressions).
+The preview now shows the value. Use `$MONEY(@Variant.Price)` rather than the plain price field when you want the price to print with its currency sign. See [Format values with formulas](/category/designing-labels/formulas-and-expressions).
 
 ### The print dialog does not open
 
@@ -109,7 +109,7 @@ If you see **Insufficient credits**:
 2. Reduce the number of labels in the run, or
 3. Upgrade / change plan under **Plans**.
 
-See [Understanding plans and label credits](/category/getting-started/plans-and-credits).
+See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
 
 ### Contact support
 
@@ -122,8 +122,6 @@ From the Label Wizard **Dashboard**:
 
 ### Related articles
 
-- [Printing labels for your products](/category/printing/printing-labels)
-- [Adding barcodes](/category/designing-labels/adding-barcodes)
-- [Formulas and advanced fields](/category/designing-labels/formulas-and-expressions)
-- [Settings: language, units, default manufacturer and preferences](/category/account-troubleshooting/app-settings)
-- [Understanding plans and label credits](/category/getting-started/plans-and-credits)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Add a barcode](/category/designing-labels/adding-barcodes)
+- [Format values with formulas](/category/designing-labels/formulas-and-expressions)

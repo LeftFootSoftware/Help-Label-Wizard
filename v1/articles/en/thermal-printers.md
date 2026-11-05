@@ -1,4 +1,4 @@
-## Printing on thermal and continuous-feed printers
+## Set up a thermal or roll printer
 
 This guide covers printing Label Wizard designs on thermal and continuous-feed printers (Zebra, Rollo, DYMO-style, and similar).
 
@@ -26,6 +26,6 @@ Continuous designs are not multi-label office sheets. Do not pick an Avery sheet
 
 ### Related articles
 
-- [Choosing your label stock](/category/getting-started/choosing-label-stock)
-- [Getting the best print quality](/category/printing/print-quality-dpi)
-- [Printing labels for your products](/category/printing/printing-labels)
+- [Which label stock and printer do I need?](/category/getting-started/choosing-label-stock)
+- [Get sharp, scannable barcodes](/category/account-troubleshooting/print-quality-dpi)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)

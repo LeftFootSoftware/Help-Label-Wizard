@@ -1,4 +1,4 @@
-## Using the Library of ready-made designs
+## Start from a ready-made design
 
 This guide covers the Design gallery: browsing ready-made designs, previewing them with your products, and starting a label from a sample.
 
@@ -30,6 +30,6 @@ Ready-made designs are starting points — customize them so they match your bra
 
 ### Related articles
 
-- [Creating a new label design](/category/designing-labels/create-label-design)
-- [Showing product data on labels](/category/designing-labels/dynamic-product-data)
-- [Printing labels for your products](/category/printing/printing-labels)
+- [Create a label design](/category/designing-labels/create-label-design)
+- [Show product data on a label](/category/designing-labels/dynamic-product-data)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)

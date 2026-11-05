@@ -1,4 +1,4 @@
-## Printing labels for every product at once
+## Print labels for every product at once
 
 This guide explains **Select all** and the Print All flow when you need labels for your whole filtered catalog.
 
@@ -18,7 +18,7 @@ Order mode skips that “one quantity for everything” step because each line a
 
 ### Credits and large runs
 
-Credits and usage are based on **total labels printed**. A full-catalog run can use many credits at once. Check your remaining credits or Pay As You Go usage before confirming. See [Understanding plans and label credits](/category/getting-started/plans-and-credits).
+Credits and usage are based on **total labels printed**. A full-catalog run can use many credits at once. Check your remaining credits or Pay As You Go usage before confirming. See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
 
 ### Tips
 
@@ -28,6 +28,6 @@ Credits and usage are based on **total labels printed**. A full-catalog run can 
 
 ### Related articles
 
-- [Printing labels for your products](/category/printing/printing-labels)
-- [Setting label quantities](/category/printing/label-quantities)
-- [Label Wizard on product and variant pages](/category/shopify-admin/admin-blocks-and-actions)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Set how many labels print](/category/printing/label-quantities)
+- [Print labels from a product page](/category/printing/admin-blocks-and-actions)

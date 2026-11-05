@@ -1,4 +1,4 @@
-## Label Wizard on product and variant pages
+## Print labels from a product page
 
 This guide covers the Label Wizard admin block, the label preview carousel, choosing a design, Edit and Print, and More actions entries.
 
@@ -41,6 +41,6 @@ Label Wizard also provides admin actions (for example print or edit flows) from 
 
 ### Related articles
 
-- [Printing labels for your products](/category/printing/printing-labels)
-- [Creating a new label design](/category/designing-labels/create-label-design)
-- [Troubleshooting common printing problems](/category/account-troubleshooting/troubleshooting-printing)
+- [Print barcode labels for your products and variants](/category/printing/printing-labels)
+- [Create a label design](/category/designing-labels/create-label-design)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

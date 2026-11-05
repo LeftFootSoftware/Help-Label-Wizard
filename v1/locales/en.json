@@ -3,11 +3,11 @@
   "categories": [
     {
       "slug": "getting-started",
-      "title": "Getting Started",
+      "title": "Get started",
       "icon": "getting-started.svg",
-      "description": "Install Label Wizard, understand credits, and choose your label stock.",
+      "description": "Print your first label, see what it costs, and pick the right label stock.",
       "author": "Brian McKinley",
-      "updated": "2026-10-04",
+      "updated": "2026-11-05",
       "articles": [
         "getting-started-with-label-wizard",
         "plans-and-credits",
@@ -15,76 +15,66 @@
       ]
     },
     {
-      "slug": "designing-labels",
-      "title": "Designing Labels",
-      "icon": "designing-labels.svg",
-      "description": "Create and edit label designs, text, barcodes, images, and product data.",
-      "author": "Brian McKinley",
-      "updated": "2026-10-04",
-      "articles": [
-        "create-label-design",
-        "label-editor-basics",
-        "text-and-rich-text",
-        "adding-barcodes",
-        "adding-qr-codes",
-        "images-and-shapes",
-        "dynamic-product-data",
-        "formulas-and-expressions",
-        "flex-regions"
-      ]
-    },
-    {
       "slug": "sheets-rolls-templates",
-      "title": "Sheets, Rolls and Templates",
+      "title": "Set up labels and printer",
       "icon": "sheets-rolls-templates.svg",
-      "description": "Find manufacturer stock, create custom templates, and use the design library.",
+      "description": "Find your label sheet or roll, add a custom size, and set up your printer and app settings.",
       "author": "Brian McKinley",
-      "updated": "2026-10-04",
+      "updated": "2026-11-05",
       "articles": [
         "sheets-and-rolls",
         "custom-label-template",
-        "design-library"
+        "thermal-printers",
+        "app-settings"
+      ]
+    },
+    {
+      "slug": "designing-labels",
+      "title": "Design labels",
+      "icon": "designing-labels.svg",
+      "description": "Build a label once, fill it with live product data, and reuse it for every product.",
+      "author": "Brian McKinley",
+      "updated": "2026-11-05",
+      "articles": [
+        "create-label-design",
+        "design-library",
+        "label-editor-basics",
+        "sidekick-labels",
+        "text-and-rich-text",
+        "images-and-shapes",
+        "adding-barcodes",
+        "adding-qr-codes",
+        "flex-regions",
+        "dynamic-product-data",
+        "formulas-and-expressions"
       ]
     },
     {
       "slug": "printing",
-      "title": "Printing",
+      "title": "Print labels",
       "icon": "printing.svg",
-      "description": "Print labels for products and orders, set quantities, and get the best print quality.",
+      "description": "Print labels for one product, every product, or an order, on fresh or partly used sheets.",
       "author": "Brian McKinley",
-      "updated": "2026-10-04",
+      "updated": "2026-11-05",
       "articles": [
         "printing-labels",
         "print-partly-used-sheet",
         "label-quantities",
         "print-all-products",
         "print-from-order",
-        "print-quality-dpi",
-        "thermal-printers"
-      ]
-    },
-    {
-      "slug": "shopify-admin",
-      "title": "Working from Shopify Admin",
-      "icon": "shopify-admin.svg",
-      "description": "Use Label Wizard on product and variant pages, and with Shopify Sidekick.",
-      "author": "Brian McKinley",
-      "updated": "2026-10-04",
-      "articles": [
-        "admin-blocks-and-actions",
-        "sidekick-labels"
+        "admin-blocks-and-actions"
       ]
     },
     {
       "slug": "account-troubleshooting",
-      "title": "Account and Troubleshooting",
+      "title": "Fix a problem",
       "icon": "account-troubleshooting.svg",
-      "description": "App settings and fixes for common printing problems.",
+      "description": "Find what you see, then follow the fix. Or contact the Label Wizard team.",
       "author": "Brian McKinley",
-      "updated": "2026-10-04",
+      "updated": "2026-11-05",
       "articles": [
-        "app-settings",
-        "troubleshooting-printing"
+        "troubleshooting-printing",
+        "print-quality-dpi"
       ]
     }
   ],

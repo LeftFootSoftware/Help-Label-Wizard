@@ -1,4 +1,4 @@
-## Adding and formatting text
+## Add and format text
 
 This guide explains how to add text boxes and format fonts, sizes, styles, colors, shadows, and mixed formatting.
 
@@ -26,7 +26,7 @@ Some text boxes support **rich text**, so part of a line can be bold or a differ
 
 ### Product data inside text
 
-You can insert product fields (title, price, SKU, and more) into text. See [Showing product data on labels](/category/designing-labels/dynamic-product-data).
+You can insert product fields (title, price, SKU, and more) into text. See [Show product data on a label](/category/designing-labels/dynamic-product-data).
 
 When a field is empty for a product, that part of the text can appear blank on the printed label — that is expected when the data is missing.
 
@@ -38,6 +38,6 @@ When a field is empty for a product, that part of the text can appear blank on t
 
 ### Related articles
 
-- [Using the label editor](/category/designing-labels/label-editor-basics)
-- [Formulas and advanced fields](/category/designing-labels/formulas-and-expressions)
-- [Flex regions](/category/designing-labels/flex-regions)
+- [Find your way around the label editor](/category/designing-labels/label-editor-basics)
+- [Format values with formulas](/category/designing-labels/formulas-and-expressions)
+- [Fit long product names on a label](/category/designing-labels/flex-regions)
