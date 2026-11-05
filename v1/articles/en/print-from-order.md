@@ -25,5 +25,5 @@ Print labels for the products in one Shopify order, with each product's label co
 
 ### Related articles
 
-- [Print barcode labels for your products and variants](/category/printing/printing-labels)
 - [Create a label design](/category/designing-labels/create-label-design)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

@@ -58,7 +58,7 @@ Label Wizard prints the barcodes your products already have. It does not create 
 
 ### Barcode will not scan
 
-1. Make the barcode larger on the design. In our tests, a barcode that filled the label scanned where a small one did not.
+1. Make the barcode larger on the design. In our tests, a barcode that filled the label decoded where a small one did not.
 2. Choose the barcode format your retailer or scanner expects (UPC, EAN-13, GTIN-14, Code 128 and so on). **Automatic** can pick Code 128 for an 8-digit or 14-digit value.
 3. Print at the DPI that matches your printer: **203** for thermal printers, **300** for laser.
 4. Avoid stretching barcodes unevenly.

@@ -32,5 +32,5 @@ Each label uses one credit, so check the total before you choose **Print All**.
 
 ### Related articles
 
-- [Print barcode labels for your products and variants](/category/printing/printing-labels)
 - [How do plans and label credits work?](/category/getting-started/plans-and-credits)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

@@ -30,5 +30,5 @@ Print labels for one product, or one variant, straight from its page in your Sho
 
 ### Related articles
 
-- [Print barcode labels for your products and variants](/category/printing/printing-labels)
 - [Create a label design](/category/designing-labels/create-label-design)
+- [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing)

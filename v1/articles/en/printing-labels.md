@@ -1,6 +1,6 @@
 ## Print barcode labels for your products and variants
 
-Pick the products you need, choose your label sheet or roll, and print a PDF of ready labels from one design.
+Pick the products and variants you need, choose your label sheet or roll, and print a label for each one from a single design.
 
 ### Before you start
 
