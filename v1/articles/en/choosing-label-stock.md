@@ -1,52 +1,53 @@
-## Choosing your label stock: sheets, rolls and continuous feed
+## Which label stock and printer do I need?
 
-This guide explains the main types of label stock Label Wizard supports and which printers usually fit each type.
+Label Wizard prints on sheets of labels from an office printer, or on rolls from a label printer. Pick the stock that matches the printer you have.
 
-### Sheets (laser / inkjet)
+### Sheets: for laser and inkjet printers
 
-**Sheet** stock is a page of peel-off labels (for example Avery or Online Labels). You print a full page (or part of a page) on a standard laser or inkjet printer.
+A sheet is a page of peel-off labels, for example Avery 5160 (30 labels on a Letter page).
 
-Best when:
+- Prints on a normal office laser or inkjet printer.
+- Paper sizes: Letter, Legal, Tabloid and A4.
+- Label Wizard fills the sheet from the first free position. On a sheet you used before, you can skip the positions that are gone. See [Print on a partly used label sheet](/category/printing/print-partly-used-sheet).
+- Print at 300 DPI for laser printers.
 
-- You already buy brand-name sheets
-- You print small batches on an office printer
-- You need exact alignment to a published template
+Sheets suit small batches and shops that already own an office printer.
 
-Use **Sheets and rolls** in Label Wizard to find a matching template, or create a [custom sheet template](/category/sheets-rolls-templates/custom-label-template).
+### Rolls: for thermal label printers
 
-![screenshot:Sheets and rolls page with the Manufacturer filter open](ChoosingStockSheetsAndRolls.png)
+A roll holds one label after another, for example Dymo 30334 (2.25 x 1.25 in). In Label Wizard, rolls use the paper size **Continuous Feed**.
 
-### Rolls (thermal)
+- Prints on a thermal label printer (direct thermal or thermal transfer).
+- Label Wizard makes a PDF with one label per page, at the label's size.
+- Print at 203 DPI for thermal label printers, unless your printer's guide says otherwise.
 
-**Roll** labels feed through a thermal label printer (Zebra, Rollo, DYMO-style devices, and similar). Labels usually come one-wide on the roll.
+Rolls suit shops that print labels often, because there is no sheet to line up.
 
-Best when:
+### Which brands are listed
 
-- You print shipping or warehouse labels often
-- You want one label at a time without cutting sheets
+**Sheets and rolls** lists more than 400 sheets and rolls from Avery, Dymo, Online Labels and Uline. One row often covers several part numbers that share a size, so search for the number on your pack.
 
-In Print labels, look for roll and continuous-feed options under manufacturers such as **Continuous Feed**.
+If your stock is not listed, add its size yourself. See [Add a label size that isn't listed](/category/sheets-rolls-templates/custom-label-template).
 
-### Continuous feed
+### Choose your stock in Label Wizard
 
-**Continuous feed** stock is a long strip without fixed page breaks. Label Wizard treats continuous designs differently from multi-label sheets so your print layout matches the printer.
+1. In the sidebar, open **Sheets and rolls**.
+2. In **Search sheets and rolls**, type the part number on your pack, for example **5160**.
+3. Check the row's **Label size**, **Layout** and **Paper size** against your pack.
+4. Choose **Design a label** on that row to start a design at that size.
 
-Continuous-feed rolls often print best at **203 DPI** on thermal printers. See [Getting the best print quality](/category/printing/print-quality-dpi).
+When you print, Label Wizard offers only the sheets and rolls that match your design's size.
 
-### Plain paper
+![screenshot:Sheets and rolls page listing label stock with columns Product, Label size, Layout, Paper size and Actions, plus the Manufacturer and Add filter controls](ChoosingStockSheetsAndRolls-v2.png)
 
-**Plain paper** options let you design and print without a branded label sheet — useful for drafts or custom cut sizes. Alignment still depends on your printer margins and scale settings.
+### If something goes wrong
 
-### How to pick stock in Label Wizard
-
-1. Open **Sheets and rolls** or start **Design a label** → **Start from a sheet or roll**.
-2. Filter by size, shape, or search (for example `Avery 5160` or `4x6`).
-3. When printing, choose the same **Sheet or roll** in the print dialog so the preview matches your physical stock.
-
-![screenshot:Print modal Manufacturer and Sheet or roll selectors](ChoosingStockPrintPicker.png)
+- **Your pack's part number finds nothing:** search for another number on the pack, or add the size with **Add custom**.
+- **A search by size such as 4x6 finds nothing:** search by part number instead, or add the size with **Add custom**.
+- **Labels on a sheet print out of line:** see [Fix common printing problems](/category/account-troubleshooting/troubleshooting-printing).
 
 ### Related articles
 
 - [Finding your label sheet in Sheets & Rolls](/category/sheets-rolls-templates/sheets-and-rolls)
 - [Printing on thermal and continuous-feed printers](/category/printing/thermal-printers)
-- [Getting the best print quality](/category/printing/print-quality-dpi)
+- [Printing on a partly used label sheet](/category/printing/print-partly-used-sheet)
