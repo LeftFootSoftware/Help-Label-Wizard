@@ -29,7 +29,7 @@ The page shows your design's name at the top and a **Products** list with one ro
 
 If your **Default print quantity** is **Inventory on hand**, the page says "Quantities match inventory for the selected location, up to 500 per product. You can edit any quantity." See [Set how many labels print](/category/printing/label-quantities).
 
-![screenshot:Print labels page for the Canvas Tote label design with two Canvas Tote variants selected, Natural and Black, each set to 1 label, and the Set Quantity and Print 2 labels buttons](PrintingLabelsPage-v2.png)
+![screenshot:Print labels page with two Canvas Tote variants selected, Set Quantity and both quantity boxes outlined, and Print 2 labels](PrintingLabelsPage-v2.png)
 
 ### Choose your sheet or roll
 
@@ -39,7 +39,7 @@ If your **Default print quantity** is **Inventory on hand**, the page says "Quan
 4. Compare **Sheet or roll details** and the **Layout** preview with your stock.
 5. If you are printing on a sheet you used before, click the positions that are gone. See [Print on a partly used label sheet](/category/printing/print-partly-used-sheet).
 
-![screenshot:Select a sheet or roll to print window with Online Labels OL4607 chosen, 203 DPI, sheet details showing 2.50 x 1.00 in and 24 labels per sheet, and the sheet layout preview](PrintingLabelsStockModal-v2.png)
+![screenshot:Select a sheet or roll to print window with OL4607 and 203 DPI outlined, 24 labels per sheet, and the sheet layout preview](PrintingLabelsStockModal-v2.png)
 
 If the window says "This label is small, so it will print at 600 DPI.", Label Wizard raises the resolution for that label. You do not need to change anything.
 

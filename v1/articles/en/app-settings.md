@@ -23,7 +23,7 @@ Shows your plan and billing, with a **Change plan** button. See [How do plans an
 - **When opening Print labels** (under **Default print quantity**): start each product at **Inventory on hand** or at **1 label per product**. You can change quantities on the print page at any time. See [Set how many labels print](/category/printing/label-quantities).
 - **When you print** (under **Print action**): **Open the print dialog** to print straight away, or **Download a PDF** to print later.
 
-![screenshot:Settings print cards: Print resolution with Default printer DPI 300 DPI, Default print quantity with When opening Print labels set to Inventory on hand, and Print action with When you print set to Open the print dialog](AppSettingsPrint-v2.png)
+![screenshot:Print settings: Default printer DPI 300 DPI, Print labels opening at Inventory on hand, and When you print set to Open the print dialog](AppSettingsPrint-v2.png)
 
 ### If something goes wrong
 

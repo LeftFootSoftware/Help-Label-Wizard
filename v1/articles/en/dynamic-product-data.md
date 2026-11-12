@@ -15,7 +15,7 @@ Fill a label with each product's own name, price, SKU, barcode and other fields,
 4. Choose a field, for example **Variant.DisplayName**.
 5. In the **Variant** panel, choose a few products and check the preview.
 
-![screenshot:Text panel with @ typed in the text box and the field list open: Variant.DisplayName, Variant.Price, Variant.CompareAtPrice, Variant.SKU, Variant.Barcode, Variant.CreatedAt, Product.Title, Product.Handle](ProductDataFieldList-v2.png)
+![screenshot:Text panel with @ typed in the text box and the field list open, from Variant.DisplayName to Product.Title and Product.Handle](ProductDataFieldList-v2.png)
 
 ### What happens
 

@@ -10,7 +10,7 @@ Set each product's label count on the **Print labels** page, one row at a time o
 
 Type a number in the product's **Label Count** box. That many labels print for that product or variant.
 
-![screenshot:Print labels page for the Canvas Tote label design with two Canvas Tote variants selected, Natural and Black, each set to 1 label, and the Set Quantity and Print 2 labels buttons](PrintingLabelsPage-v2.png)
+![screenshot:Print labels page with Canvas Tote Natural and Black selected, both quantity boxes set to 1 and outlined, and Set Quantity outlined](PrintingLabelsPage-v2.png)
 
 ### Set the same count for many products
 

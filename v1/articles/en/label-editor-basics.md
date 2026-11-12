@@ -14,7 +14,7 @@ The editor shows your label on a canvas, with a toolbar above it and a **Variant
 - **Variant panel:** choose the product to preview. Search with **Filter variants**, narrow with **Product types**, **Product status** or **Product tags**, or step through products with the arrows.
 - **Settings panel:** select an object on the canvas and its settings open below the **Variant** panel.
 
-![screenshot:Label editor for Product barcode label: toolbar and zoom above the canvas, Canvas Tote - Natural on the label, and the Variant panel with Canvas Tote - Natural selected](StartHereEditor-v2.png)
+![screenshot:Label editor: the outlined toolbar and zoom above the canvas, and Canvas Tote - Natural selected in the Variant panel](StartHereEditor-v2.png)
 
 ### The toolbar buttons, left to right
 

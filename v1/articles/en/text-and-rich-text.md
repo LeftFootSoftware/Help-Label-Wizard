@@ -13,7 +13,7 @@ Add words, product photos, logos and shapes to a label, and set how each one loo
 3. Under **Style**, choose the **Font family**, the **Text** colour and the **Font size**.
 4. Choose **Save** in the **Unsaved changes** bar.
 
-![screenshot:Text section of a new text element: Rich text unticked, Attribute and Formula buttons, an empty text box with the hint "Type your text here. Use @ to insert a product attribute or $ for a formula.", and Hide when empty](TextPanelNewText-v2.png)
+![screenshot:New text element with Rich text unticked and an empty text box whose hint says use @ for a product attribute or $ for a formula](TextPanelNewText-v2.png)
 
 For fields and formulas, see [Show product data on a label](/category/designing-labels/dynamic-product-data) and [Format values with formulas](/category/designing-labels/formulas-and-expressions).
 

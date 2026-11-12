@@ -38,7 +38,7 @@ If your stock is not listed, add its size yourself. See [Add a label size that i
 
 When you print, Label Wizard offers only the sheets and rolls that match your design's size.
 
-![screenshot:Sheets and rolls page listing label stock with columns Product, Label size, Layout, Paper size and Actions, plus the Manufacturer and Add filter controls](ChoosingStockSheetsAndRolls-v2.png)
+![screenshot:Sheets and rolls page listing label stock with Product, Label size, Layout, Paper size and Actions columns](ChoosingStockSheetsAndRolls-v2.png)
 
 ### If something goes wrong
 

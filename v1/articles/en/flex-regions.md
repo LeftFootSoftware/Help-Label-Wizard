@@ -17,7 +17,7 @@ Print long product names in full: give the name a box that can wrap, and let the
 6. In the **Variant** panel, choose your longest product and check the canvas.
 7. Choose **Save** in the **Unsaved changes** bar.
 
-![screenshot:Text panel Style section: Font family Arial, Text and Background colour buttons, Font size with Size range ticked, Min 12, Max 24, and the Font style buttons](FlexRegionsSizeRange-v2.png)
+![screenshot:Text panel Style section: Font family Arial, and Font size with Size range ticked, Min 12 and Max 24](FlexRegionsSizeRange-v2.png)
 
 ### What happens
 

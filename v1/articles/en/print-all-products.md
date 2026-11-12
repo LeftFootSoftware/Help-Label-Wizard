@@ -16,7 +16,7 @@ Print the same number of labels for every product that matches your filters, acr
 5. In **Print All Filtered Products**, type the **Quantity for all products**, then choose **Print All**.
 6. In **Select a sheet or roll to print**, choose your sheet or roll, then choose **Print**. See [Print barcode labels for your products and variants](/category/printing/printing-labels).
 
-![screenshot:Print All Filtered Products dialog: "You have selected all filtered products (2 total products). This will print labels for all products matching your current filters across all pages.", Quantity for all products 1, Cancel and Print All](PrintAllFilteredDialog-v2.png)
+![screenshot:Print All Filtered Products dialog for all filtered products (2 total), with Quantity for all products set to 1 and Print All](PrintAllFilteredDialog-v2.png)
 
 ### How many labels print
 
