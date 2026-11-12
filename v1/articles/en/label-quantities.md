@@ -25,6 +25,8 @@ Type a number in the product's **Label Count** box. That many labels print for t
 2. Choose **Print All**.
 3. In **Print All Filtered Products**, type the **Quantity for all products**, then choose **Print All**.
 
+### What happens
+
 This prints every product that matches your filters, across all pages. See [Print labels for every product at once](/category/printing/print-all-products).
 
 ### Where the starting number comes from

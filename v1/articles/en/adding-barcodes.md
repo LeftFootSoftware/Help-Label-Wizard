@@ -17,9 +17,11 @@ Add a barcode that prints each variant's own barcode or SKU, so every label scan
 6. In the **Variant** panel, check a few products.
 7. Choose **Save** in the **Unsaved changes** bar.
 
-**Value** shows the code for the product in the **Variant** panel, and the canvas draws its bars and digits.
-
 ![screenshot:Barcode panel for Canvas Tote - Natural: Field Barcode, Value 05065023978496, Format Automatic, Bar height 50](AddingBarcodesSidebar-v3.png)
+
+### What happens
+
+**Value** shows the code for the product in the **Variant** panel, and the canvas draws its bars and digits.
 
 ### Choose where the code comes from
 

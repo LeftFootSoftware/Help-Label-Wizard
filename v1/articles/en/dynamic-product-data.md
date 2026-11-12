@@ -15,9 +15,11 @@ Fill a label with each product's own name, price, SKU, barcode and other fields,
 4. Choose a field, for example **Variant.DisplayName**.
 5. In the **Variant** panel, choose a few products and check the preview.
 
-The field appears highlighted in the text box, and the canvas shows that product's value.
-
 ![screenshot:Text panel with @ typed in the text box and the field list open: Variant.DisplayName, Variant.Price, Variant.CompareAtPrice, Variant.SKU, Variant.Barcode, Variant.CreatedAt, Product.Title, Product.Handle](ProductDataFieldList-v2.png)
+
+### What happens
+
+The field appears highlighted in the text box, and the canvas shows that product's value.
 
 ### Fields you can use
 

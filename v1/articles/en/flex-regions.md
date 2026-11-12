@@ -17,15 +17,11 @@ Print long product names in full: give the name a box that can wrap, and let the
 6. In the **Variant** panel, choose your longest product and check the canvas.
 7. Choose **Save** in the **Unsaved changes** bar.
 
-Names wrap onto extra lines at the spaces. A name that still needs room shrinks, down to **Min**.
-
 ![screenshot:Text panel Style section: Font family Arial, Text and Background colour buttons, Font size with Size range ticked, Min 12, Max 24, and the Font style buttons](FlexRegionsSizeRange-v2.png)
 
-### If a name is still cut off
+### What happens
 
-- **The top or bottom line is cut off:** the name needs more lines than the box holds. Lower **Min**, or make the box taller. In a test, a long name cut off at Min 12 printed in full at Min 6.
-- **A name written as one long word does not wrap:** Label Wizard wraps at spaces. Add a space to the name in Shopify, or print a shorter name.
-- **The name is too long for any size:** keep a short label name in a metafield and insert it with **@** instead of the full title. The metafield shows in the **@** list when the product in the **Variant** panel has a value for it.
+Names wrap onto extra lines at the spaces. A name that still needs room shrinks, down to **Min**.
 
 ### Stack fields with a flex region
 
@@ -41,6 +37,12 @@ In the region's panel:
 - **Add slot:** adds a slot. Open a slot to set its **Background color**, **Hide when empty** (ticked at first), **Fixed size**, **Move Slot Down** or **Remove slot**.
 
 To close the gap when a field is empty for a product, such as a compare-at price, also tick **Hide when empty** on the text inside the slot. Products with no value then print without that row, and the other slots share the space. Check a product with the field empty in the **Variant** panel.
+
+### If something goes wrong
+
+- **The top or bottom line is cut off:** the name needs more lines than the box holds. Lower **Min**, or make the box taller. In a test, a long name cut off at Min 12 printed in full at Min 6.
+- **A name written as one long word does not wrap:** Label Wizard wraps at spaces. Add a space to the name in Shopify, or print a shorter name.
+- **The name is too long for any size:** keep a short label name in a metafield and insert it with **@** instead of the full title. The metafield shows in the **@** list when the product in the **Variant** panel has a value for it.
 
 ### Related articles
 

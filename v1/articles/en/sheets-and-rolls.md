@@ -30,6 +30,8 @@ Choose **Clear** in a filter to remove it.
 2. In **Design name**, type a name, for example "Shelf label".
 3. Choose **Create**.
 
+### What happens
+
 The label editor opens at that stock's label size. When you print this design, Label Wizard offers this stock in **Select a sheet or roll to print**.
 
 ### If something goes wrong

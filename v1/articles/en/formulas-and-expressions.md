@@ -15,9 +15,11 @@ A formula changes how a product field prints, for example a price with its dolla
 4. With the cursor between the brackets, type **@** and choose the field, for example **Variant.Price**.
 5. In the **Variant** panel, choose a product and check the preview.
 
-The text box shows the formula with the field highlighted inside it. The canvas shows the result, for example **$32.00**.
-
 ![screenshot:Text panel with $ typed in the text box and the formula list open, starting with $COALESCE(), $IF(), $UPPER() and $LOWER()](FormulasFunctionList-v2.png)
+
+### What happens
+
+The text box shows the formula with the field highlighted inside it. The canvas shows the result, for example **$32.00**.
 
 ### Add words around a formula
 

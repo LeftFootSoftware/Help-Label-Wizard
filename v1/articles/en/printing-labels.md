@@ -10,7 +10,7 @@ Pick the products and variants you need, choose your label sheet or roll, and pr
 
 ### Open Print labels
 
-Open your saved design and choose **Print**. You can also start from a product or variant page; see [Print labels from a product page](/category/printing/admin-blocks-and-actions).
+Open your saved design and choose **Print**. You can also start from a product or variant page; see [Print labels from a product page](/category/printing/admin-blocks-and-actions) or [Print labels for an order](/category/printing/print-from-order).
 
 The page shows your design's name at the top and a **Products** list with one row per variant.
 
@@ -48,6 +48,8 @@ If the window says "This label is small, so it will print at 600 DPI.", Label Wi
 1. Choose **Print N labels** in the window.
 2. Wait while the message "Generating labels... Please wait." shows.
 3. Print the PDF, or save it, depending on your **When you print** setting.
+
+### What happens
 
 The page confirms the run, for example "Successfully Printed 2 labels from 2 selected products". Each label printed counts toward your plan. Previews do not. See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
 

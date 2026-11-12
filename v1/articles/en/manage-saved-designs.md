@@ -33,6 +33,8 @@ Use a copy to try a new layout or a second label size without changing the desig
 
 ![screenshot:Delete design? dialog: "This permanently deletes the design. This action cannot be undone.", Cancel and Delete](DeleteDesignDialog-v2.png)
 
+### What happens
+
 Deleting cannot be undone. Your products and their barcodes in Shopify do not change.
 
 ### If something goes wrong

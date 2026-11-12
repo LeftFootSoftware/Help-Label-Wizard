@@ -22,14 +22,16 @@ Create a new design at your label's exact size, from your sheet or roll, from a 
    - **Custom size:** type the **Length** and **Height**. Custom sizes go up to 12.00 x 17.00 in.
 5. Choose **Create**.
 
-The design opens in the editor at the size you chose.
-
 ![screenshot:Create new design size step: Sheet or roll size tab, unit buttons, size search, Length and Height filters, and a list of sizes starting at 0.47 x 0.47 in, with Back, Cancel and Create](CreateDesignSizeStep-v2.png)
+
+### What happens
+
+The design opens in the editor at the size you chose.
 
 ### Save and find your design
 
 - Choose **Save** in the **Unsaved changes** bar after your first changes.
-- Your saved designs are in **My designs**. From a design's card menu you can **Rename design**, **Duplicate design** or **Delete design**.
+- Your saved designs are in **My designs**. From a design's card menu you can **Rename design**, **Duplicate design** or **Delete design**. See [Rename, copy or delete a saved design](/category/designing-labels/manage-saved-designs).
 - To turn the label on its side, open **Canvas** in the editor toolbar and choose **Switch to portrait**.
 
 ### If something goes wrong

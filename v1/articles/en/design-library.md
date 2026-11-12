@@ -15,6 +15,8 @@ Copy a ready-made design from the **Design gallery**, then change it to fit your
 5. Change the text, fields and colours you need.
 6. Choose **Save** in the **Unsaved changes** bar.
 
+### What happens
+
 **Use this design** creates your own copy straight away and opens it in the editor. The copy takes the design's name plus a number, for example "Apparel Hang Tag-(3)", and appears in **My designs**.
 
 ### Designs in the gallery
@@ -35,7 +37,7 @@ The gallery previews use sample products. Your own products show once you open y
 ### If something goes wrong
 
 - **You have extra copies of a design:** each **Use this design** click makes a new one. In **My designs**, open the card's menu and choose **Delete design**. Deleting cannot be undone.
-- **You want a clearer name:** in **My designs**, open the card's menu and choose **Rename design**.
+- **You want a clearer name:** in **My designs**, open the card's menu and choose **Rename design**. See [Rename, copy or delete a saved design](/category/designing-labels/manage-saved-designs).
 - **No design matches your label size:** start from your sheet or roll instead. See [Create a label design](/category/designing-labels/create-label-design).
 
 ### Related articles
