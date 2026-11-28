@@ -16,7 +16,7 @@ Print on a roll in a thermal label printer: Label Wizard prints one label per pa
 5. Choose the print button. It shows the label count, for example **Print 1 label**.
 6. In your browser's print dialog, choose your label printer and a paper size that matches the label.
 
-![screenshot:Print picker with Paper size Continuous Feed, Printer resolution 203 DPI and the hint "Continuous-feed rolls often print best at 203 DPI on thermal printers.", Sheet or roll Continuous Feed · RL2676, and details: Online Labels RL2676, Rectangle, 2.25 x 1.25 in, Labels Per Sheet 1, Paper Size 2.25 × 1.25 in](ThermalRollPicker-v2.png)
+![screenshot:Print picker for Online Labels RL2676 on Continuous Feed at 203 DPI, with details showing 2.25 x 1.25 in and Labels Per Sheet 1](ThermalRollPicker-v2.png)
 
 ### Make 203 DPI the default
 

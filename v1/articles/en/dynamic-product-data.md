@@ -15,9 +15,11 @@ Fill a label with each product's own name, price, SKU, barcode and other fields,
 4. Choose a field, for example **Variant.DisplayName**.
 5. In the **Variant** panel, choose a few products and check the preview.
 
-The field appears highlighted in the text box, and the canvas shows that product's value.
+![screenshot:Text panel with @ typed in the text box and the field list open, from Variant.DisplayName to Product.Title and Product.Handle](ProductDataFieldList-v2.png)
 
-![screenshot:Text panel with @ typed in the text box and the field list open: Variant.DisplayName, Variant.Price, Variant.CompareAtPrice, Variant.SKU, Variant.Barcode, Variant.CreatedAt, Product.Title, Product.Handle](ProductDataFieldList-v2.png)
+### What happens
+
+The field appears highlighted in the text box, and the canvas shows that product's value.
 
 ### Fields you can use
 
@@ -32,7 +34,7 @@ The list has no field for vendor, product type, weight, inventory quantity, cost
 ### Fields in barcodes, QR codes and images
 
 - **Barcode:** choose the source in **Field**: **Barcode**, **SKU** or **Static text**. See [Add a barcode](/category/designing-labels/adding-barcodes).
-- **QR code:** under **Content**, choose **Attribute** and pick a field, for example **Product.URL**.
+- **QR code:** in **Content**, remove the **barcode** field, then choose **Attribute** and pick a field, for example **Product.URL**. See [Add a QR code](/category/designing-labels/adding-qr-codes).
 - **Image:** in **Image type**, choose **Product image** or **Variant image** to show each product's picture, or **Custom** for your own file.
 
 ### If something goes wrong

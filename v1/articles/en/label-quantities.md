@@ -10,7 +10,7 @@ Set each product's label count on the **Print labels** page, one row at a time o
 
 Type a number in the product's **Label Count** box. That many labels print for that product or variant.
 
-![screenshot:Print labels page for the Canvas Tote label design with two Canvas Tote variants selected, Natural and Black, each set to 1 label, and the Set Quantity and Print 2 labels buttons](PrintingLabelsPage-v2.png)
+![screenshot:Print labels page with Canvas Tote Natural and Black selected, both quantity boxes set to 1 and outlined, and Set Quantity outlined](PrintingLabelsPage-v2.png)
 
 ### Set the same count for many products
 
@@ -24,6 +24,8 @@ Type a number in the product's **Label Count** box. That many labels print for t
 1. Tick one product, then choose the **Select all** button, for example **Select all 2+ products**. The page says, for example, "All 2+ products are selected", and the **Label Count** column hides.
 2. Choose **Print All**.
 3. In **Print All Filtered Products**, type the **Quantity for all products**, then choose **Print All**.
+
+### What happens
 
 This prints every product that matches your filters, across all pages. See [Print labels for every product at once](/category/printing/print-all-products).
 
@@ -41,6 +43,7 @@ See [Change your app settings](/category/sheets-rolls-templates/app-settings). E
 - **A product starts at 0:** it has no stock at the selected location. Type a number, or switch the setting to **1 label per product**.
 - **The counts do not match your stock:** check the **Location** filter. Counts follow the selected location.
 - **The print button is grey:** tick at least one product with a count above 0.
+- **The selected count is higher than the rows you can see:** rows you ticked can stay ticked after a new search, even when the search hides them. Clear the search and untick the ones you do not want.
 
 ### Related articles
 

@@ -15,7 +15,7 @@ Print labels for the products in one Shopify order, with each product's label co
 5. Tick the products to print. Each row's **Label Count** starts at the quantity ordered; change it if you need to.
 6. Choose the print button, then your sheet or roll, as for any print. See [Print barcode labels for your products and variants](/category/printing/printing-labels).
 
-![screenshot:Print labels for order dialog: "Choose which saved design to use, then open the print page for this order's products.", Design set to Product barcode label, Close and Print labels](PrintFromOrderModal-v2.png)
+![screenshot:Print labels for order dialog with Design set to Product barcode label, and the Close and Print labels buttons](PrintFromOrderModal-v2.png)
 
 ### If something goes wrong
 

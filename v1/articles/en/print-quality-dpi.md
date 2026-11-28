@@ -18,7 +18,7 @@ Choose it in **Printer resolution (DPI)** each time you print, or set **Default 
 
 At 300 DPI, small labels move up by themselves: the picker says "This label is small, so it will print at 600 DPI." At 203 DPI they stay at 203.
 
-![screenshot:Print picker: Manufacturer All manufacturers, Paper size All sizes, Printer resolution 300 DPI with the hint "203 for thermal label printers, 300 for laser, 600 for high-resolution devices. This label is small, so it will print at 600 DPI.", Sheet or roll OL340 (Online Labels)](PrintQualityDpiPicker-v2.png)
+![screenshot:Print picker at 300 DPI for OL340 (Online Labels), with the hint "This label is small, so it will print at 600 DPI."](PrintQualityDpiPicker-v2.png)
 
 ### Give the barcode room
 

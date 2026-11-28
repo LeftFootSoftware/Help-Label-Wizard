@@ -2,15 +2,13 @@
 
 Find the problem you see below, follow its steps, and print again. If nothing here fixes it, contact the Label Wizard team from the Dashboard.
 
-| What you see | Most likely cause | Section |
-|---|---|---|
-| Your sheet or roll is not in the list when you print | The sheet's label size does not match the design's size | Your sheet or roll is not in the list |
-| Labels print on spots you already used | Used positions were not skipped | Labels print on positions you already used |
-| Labels are shifted on the sheet | Browser scale or margins | Labels are misaligned on the sheet |
-| A label prints with no barcode | The variant has no barcode in Shopify | A label prints without its barcode |
-| A barcode does not scan | Size or barcode format | Barcode will not scan |
-| A price prints blank or with no currency sign | The field was typed, not inserted | A price or formula prints blank |
-| A PDF downloads when you expected the print dialog, or the reverse | The **When you print** setting | The print dialog does not open |
+- **Your sheet or roll is not in the list when you print** (the sheet's label size does not match the design's size): see *Your sheet or roll is not in the list* below.
+- **Labels print on spots you already used** (used positions were not skipped): see *Labels print on positions you already used* below.
+- **Labels are shifted on the sheet** (browser scale or margins): see *Labels are misaligned on the sheet* below.
+- **A label prints with no barcode** (the variant has no barcode in Shopify): see *A label prints without its barcode* below.
+- **A barcode does not scan** (size or barcode format): see *Barcode will not scan* below.
+- **A price prints blank or with no currency sign** (the field was typed, not inserted): see *A price or formula prints blank* below.
+- **A PDF downloads when you expected the print dialog, or the reverse** (the **When you print** setting): see *The print dialog does not open* below.
 
 ### Your sheet or roll is not in the list
 

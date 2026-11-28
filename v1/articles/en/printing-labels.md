@@ -10,7 +10,7 @@ Pick the products and variants you need, choose your label sheet or roll, and pr
 
 ### Open Print labels
 
-Open your saved design and choose **Print**. You can also start from a product or variant page; see [Print labels from a product page](/category/printing/admin-blocks-and-actions).
+Open your saved design and choose **Print**. You can also start from a product or variant page; see [Print labels from a product page](/category/printing/admin-blocks-and-actions) or [Print labels for an order](/category/printing/print-from-order).
 
 The page shows your design's name at the top and a **Products** list with one row per variant.
 
@@ -25,10 +25,11 @@ The page shows your design's name at the top and a **Products** list with one ro
 
 1. Tick the rows you want to print. To include every product that matches your filters, choose the **Select all** link next to the count (for example **Select all 2+ products**). See [Print labels for every product at once](/category/printing/print-all-products).
 2. Type a number in a row's quantity box, or select rows and choose **Set Quantity** to give them all the same number.
+3. Check the count next to the ticks, for example "2 selected", and the number on the print button. Rows you ticked can stay ticked after a new search, even when the search hides them.
 
 If your **Default print quantity** is **Inventory on hand**, the page says "Quantities match inventory for the selected location, up to 500 per product. You can edit any quantity." See [Set how many labels print](/category/printing/label-quantities).
 
-![screenshot:Print labels page for the Canvas Tote label design with two Canvas Tote variants selected, Natural and Black, each set to 1 label, and the Set Quantity and Print 2 labels buttons](PrintingLabelsPage-v2.png)
+![screenshot:Print labels page with two Canvas Tote variants selected, Set Quantity and both quantity boxes outlined, and Print 2 labels](PrintingLabelsPage-v2.png)
 
 ### Choose your sheet or roll
 
@@ -38,7 +39,7 @@ If your **Default print quantity** is **Inventory on hand**, the page says "Quan
 4. Compare **Sheet or roll details** and the **Layout** preview with your stock.
 5. If you are printing on a sheet you used before, click the positions that are gone. See [Print on a partly used label sheet](/category/printing/print-partly-used-sheet).
 
-![screenshot:Select a sheet or roll to print window with Online Labels OL4607 chosen, 203 DPI, sheet details showing 2.50 x 1.00 in and 24 labels per sheet, and the sheet layout preview](PrintingLabelsStockModal-v2.png)
+![screenshot:Select a sheet or roll to print window with OL4607 and 203 DPI outlined, 24 labels per sheet, and the sheet layout preview](PrintingLabelsStockModal-v2.png)
 
 If the window says "This label is small, so it will print at 600 DPI.", Label Wizard raises the resolution for that label. You do not need to change anything.
 
@@ -48,7 +49,9 @@ If the window says "This label is small, so it will print at 600 DPI.", Label Wi
 2. Wait while the message "Generating labels... Please wait." shows.
 3. Print the PDF, or save it, depending on your **When you print** setting.
 
-The page confirms the run, for example "Successfully Printed 2 labels from 2 selected products". Each label printed counts toward your plan. Previews do not. See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
+### What happens
+
+The page confirms the run, for example "Successfully Printed 2 labels from 2 selected products". Each label in the PDF counts toward your plan, even if you open the PDF only to check it. See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
 
 ### If something goes wrong
 

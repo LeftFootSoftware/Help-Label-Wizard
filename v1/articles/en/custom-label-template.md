@@ -24,7 +24,7 @@ If your sheet or roll is not in **Sheets and rolls**, add its measurements once 
 4. Under **Margins**, type **Top**, **Bottom**, **Left** and **Right**.
 5. Check the preview on the right, then choose **Save size**.
 
-![screenshot:Add custom size window with an empty Name field, Display units set to in, Sheet or roll set to Sheet, Paper Size set to Letter and the Save size button greyed out](CustomLabelTemplateForm-v2.png)
+![screenshot:Add custom size window with an empty Name field, Display units in, Sheet selected, Letter paper and Save size greyed out](CustomLabelTemplateForm-v2.png)
 
 ### What happens
 

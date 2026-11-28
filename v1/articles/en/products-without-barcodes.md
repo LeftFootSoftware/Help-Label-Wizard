@@ -43,7 +43,7 @@ A product without a barcode still prints. Its name, price and SKU print, and the
 ### If something goes wrong
 
 - **The Barcode column on the print page is empty for a variant:** that variant has no barcode in Shopify.
-- **Some SKU labels print without bars:** those variants have no SKU. Add one in Shopify.
+- **Some SKU labels print without bars:** those variants have no SKU. Add one in Shopify. The app does not warn you at print, and if the barcode is the only thing on the design, the label prints blank.
 - **Two products scan as the same item:** they share a SKU or barcode. Give each variant its own code.
 
 ### Related articles

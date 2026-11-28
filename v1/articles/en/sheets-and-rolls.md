@@ -14,7 +14,7 @@ Find the sheet or roll you print on in Label Wizard's list of more than 400 size
 
 One row often lists several part numbers that share the same size. Avery 5160, for example, shares its row with dozens of other Avery, Online Labels and Uline numbers.
 
-![screenshot:Sheets and rolls page searched for 5160, showing one row where Avery 5160 shares its size with many Avery, Online Labels and Uline part numbers](SheetsAndRollsSearch-v2.png)
+![screenshot:Sheets and rolls search box outlined with 5160 typed. One row shows Avery 5160 sharing its size with many other part numbers](SheetsAndRollsSearch-v2.png)
 
 ### Narrow the list
 
@@ -29,6 +29,8 @@ Choose **Clear** in a filter to remove it.
 1. On the row, choose **Design a label**.
 2. In **Design name**, type a name, for example "Shelf label".
 3. Choose **Create**.
+
+### What happens
 
 The label editor opens at that stock's label size. When you print this design, Label Wizard offers this stock in **Select a sheet or roll to print**.
 

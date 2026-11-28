@@ -20,7 +20,8 @@ In the app's menu, choose **My designs**. Each card shows the design's name, its
 
 1. On the design's card, open the menu.
 2. Choose **Duplicate design**.
-3. Rename the copy, then choose **Edit** to change it.
+3. In **New design name**, keep the suggested name or type your own, then choose **Duplicate design**.
+4. On the copy's card, choose **Edit** to change it.
 
 Use a copy to try a new layout or a second label size without changing the design you print today.
 
@@ -31,6 +32,8 @@ Use a copy to try a new layout or a second label size without changing the desig
 3. In **Delete design?**, choose **Delete**.
 
 ![screenshot:Delete design? dialog: "This permanently deletes the design. This action cannot be undone.", Cancel and Delete](DeleteDesignDialog-v2.png)
+
+### What happens
 
 Deleting cannot be undone. Your products and their barcodes in Shopify do not change.
 

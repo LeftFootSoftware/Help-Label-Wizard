@@ -19,7 +19,7 @@ Print your first barcode label: match your label stock, add your product's barco
 
 The label editor opens at your stock's label size.
 
-![screenshot:Sheets and rolls page searched for 5160, showing one row for Avery 5160 with its label size 2.59 x 1.00 in, layout 10 x 3 with 30 labels, Letter paper and the Design a label button](SheetsAndRollsSearch-v2.png)
+![screenshot:Sheets and rolls page searched for 5160, with the search box and the Design a label button on the Avery 5160 row outlined](SheetsAndRollsSearch-v2.png)
 
 If your stock is not listed, see [Add a label size that isn't listed](/category/sheets-rolls-templates/custom-label-template).
 
@@ -33,7 +33,7 @@ If your stock is not listed, see [Add a label size that isn't listed](/category/
 6. Drag the barcode and the text where you want them on the label.
 7. Choose **Save** in the **Unsaved changes** bar.
 
-![screenshot:Label editor for the design Product barcode label, showing the product name Canvas Tote - Natural above its barcode, with Canvas Tote - Natural selected in the Variant panel](StartHereEditor-v2.png)
+![screenshot:Label editor for Product barcode label, with the outlined toolbar above the canvas and Canvas Tote - Natural above its barcode](StartHereEditor-v2.png)
 
 ### 3. Print
 

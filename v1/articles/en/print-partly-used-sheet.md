@@ -16,7 +16,7 @@ Use up a label sheet you already printed on: mark the positions that are gone, a
 5. Load the sheet into your printer the same way up as last time.
 6. Choose **Print N labels**.
 
-![screenshot:Layout preview of a 24-label sheet with the first two positions marked as skipped, the hint "Click positions already used on your first sheet to leave them blank." and the counter "2 positions skipped on the first sheet" with a Clear link](PartlyUsedSheetSkipPositions.png)
+![screenshot:Layout preview of a 24-label sheet with the first two positions skipped and the counter "2 positions skipped on the first sheet"](PartlyUsedSheetSkipPositions.png)
 
 ### What happens
 
