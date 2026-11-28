@@ -51,7 +51,7 @@ If the window says "This label is small, so it will print at 600 DPI.", Label Wi
 
 ### What happens
 
-The page confirms the run, for example "Successfully Printed 2 labels from 2 selected products". Each label printed counts toward your plan. Previews do not. See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
+The page confirms the run, for example "Successfully Printed 2 labels from 2 selected products". Each label in the PDF counts toward your plan, even if you open the PDF only to check it. See [How do plans and label credits work?](/category/getting-started/plans-and-credits).
 
 ### If something goes wrong
 
