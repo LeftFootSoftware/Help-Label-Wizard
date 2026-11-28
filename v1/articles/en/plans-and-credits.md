@@ -28,8 +28,9 @@ For example, if you print 3 labels for one product and 2 for another in the same
 These do not use credits:
 
 - Creating, editing and saving designs
-- Previewing labels in the editor or in the sheet picker
 - Opening the **Select a sheet or roll to print** window and choosing **Cancel**
+
+Creating the label PDF uses credits, even if you open it only to check the labels and do not print it.
 
 ### What Start Free costs
 
